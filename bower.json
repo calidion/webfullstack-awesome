@@ -1,0 +1,8 @@
+{
+  "name": "www-3gcnbeta-com",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass-official": "~3.2.0",
+    "modernizr": "~2.8.2"
+  }
+}
