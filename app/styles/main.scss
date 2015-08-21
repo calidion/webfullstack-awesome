@@ -34,6 +34,7 @@ body {
     margin-bottom: 0;
     line-height: 40px;
     padding-bottom: 19px;
+    text-shadow: 1px 1px 2px #333;
   }
 }
 
@@ -69,9 +70,15 @@ body {
         }
         text-align: center;
         display: inline-block;
+        width: 100px;
+        height: 100px;
         img {
-          width: 30px;
-          height: 30px;
+          width: 60px;
+          height: 60px;
+          border-radius: 30px;
+          padding: 5px;
+          border: 5px solid #ccc;
+          box-shadow: 5px 5px 12px #aaa;
         }
         i.fa {
           color: #5cb85c;
