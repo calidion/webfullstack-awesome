@@ -1,6 +1,7 @@
 'use strict';
 
-console.log('\'Allo \'Allo!');
+
+
 
 $(document).ready(function () {
   $('.links > p.lists > a > img').each(function () {

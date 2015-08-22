@@ -56,12 +56,13 @@ body {
       padding-left: 10px;
       margin: 0;
       font-size: 1.5rem;
-      color: #2cc239;
-      background-color: rgb(229, 239, 219);
-      border-bottom: 1px solid rgb(55, 126, 255);
-      height: 2rem;
+      color: #888;
+      border-bottom: 3px solid rgb(55, 126, 255);
+      height: 2.5rem;
       line-height: 2rem;
       margin-bottom: 10px;
+      text-shadow: 1px 1px 1px #ccc;
+      font-size: 2rem;
     }
     p.lists {
       a {
