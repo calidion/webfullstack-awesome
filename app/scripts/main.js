@@ -267,23 +267,21 @@ var sites = [
     favicon: 'http://www.yuntongxun.com/favicon.ico',
     name: '云通讯'
   }]
-},{
-    name: '云计算',
+},
+{
+  name: '云计算',
   items: [
-    {url: 'http://aws.amazon.com/',
-      favicon: 'https://a0.awsstatic.com/main/images/site/favicon.ico',
-      name: 'Amazon'
-    },
-    {
-      url: 'http://azure.microsoft.com/',
-      favicon: 'http://www.microsoft.com/favicon.ico',
-      name: 'Azure'
-    }
-  ]
-
-
-  }
-];
+  {
+    url: 'http://aws.amazon.com/',
+    favicon: 'https://a0.awsstatic.com/main/images/site/favicon.ico',
+    name: 'Amazon'
+  },
+  {
+    url: 'http://azure.microsoft.com/',
+    favicon: 'http://www.microsoft.com/favicon.ico',
+    name: 'Azure'
+  }]
+}];
 $(document).ready(function ()
 {
   var source = $('#section').html();
@@ -291,7 +289,6 @@ $(document).ready(function ()
   for(var i = 0; i < sites.length; i++)
   {
     var item = sites[i];
-    console.log(template(item));
     $('.links').append(template(item));
   }
 });
