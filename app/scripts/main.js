@@ -217,7 +217,7 @@ var sites = [
   items: [
   {
     url: 'https://babeljs.io/',
-    favicon: 'https://babeljs.io/favicon.ico',
+    favicon: 'images/babel.ico',
     name: 'babeljs'
   },
   {
@@ -244,8 +244,8 @@ var sites = [
   name: 'JS引擎',
   items: [
   {
-    url: 'http://asm.js/',
-    favicon: 'favicon.ico',
+    url: 'http://asmjs.org/',
+    favicon: 'http://asmjs.org/favicon.ico',
     name: 'ASM.JS'
   },
   {
@@ -276,7 +276,7 @@ var sites = [
     },
     {
       url: 'http://azure.microsoft.com/',
-      favicon: 'http://acom.azurecomcdn.net/80C57D/cdn/images/cvt-90cdaf487716184e4034000935c605d1633926d348116d198f355a98b8c6cd21/icon/favicon.ico?t=popn',
+      favicon: 'http://www.microsoft.com/favicon.ico',
       name: 'Azure'
     }
   ]
