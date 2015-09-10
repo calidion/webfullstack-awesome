@@ -183,12 +183,12 @@ var sites = [
   name: 'JS后端或全栈框架',
   items: [
   {
-    url: 'http://expressjs.com',
+    url: 'http://expressjs.com/',
     favicon: 'http://expressjs.com/images/strongloop-logo.png',
     name: 'Express JS'
   },
   {
-    url: 'http://sailsjs.org',
+    url: 'http://sailsjs.org/',
     favicon: 'http://sailsjs.org/favicon.ico',
     name: 'Sails JS'
   },
@@ -196,7 +196,11 @@ var sites = [
     url: 'http://www.meteor.com',
     favicon: 'https://www.meteor.com/favicon.png',
     name: 'Meteor'
-  }]
+  },{
+      url: 'http://koajs.com/',
+      favicon: 'favicon.ico',
+      name: 'koajs'
+    }]
 },
 {
   name: 'nodejs/iojs',
@@ -281,7 +285,22 @@ var sites = [
     favicon: 'http://www.microsoft.com/favicon.ico',
     name: 'Azure'
   }]
-}];
+},{
+    name: '网络调试工具',
+    items: [
+      {
+        url: 'https://ngrok.com/',
+        favicon: 'http://www.github.com/favicon.ico',
+        name: 'ngrok',
+        title: '用于将本地服务器转化成网络服务器的工具'
+      },
+      {
+        url: 'http://blog.qqbrowser.cc/',
+        favicon: 'http://blog.qqbrowser.cc/assets/images/favicon.ico',
+        name: '微信调试'
+      }
+    ]
+  }];
 $(document).ready(function ()
 {
   var source = $('#section').html();
