@@ -98,7 +98,7 @@ var sites = [
   {
     url: 'http://jquerymobile.com/',
     favicon: 'http://jquerymobile.com/favicon.ico',
-    name: 'Ionic'
+    name: 'JQuery Mobile'
   },
   {
     url: 'http://app-framework-software.intel.com/',
@@ -270,7 +270,11 @@ var sites = [
     url: 'http://www.yuntongxun.com/',
     favicon: 'http://www.yuntongxun.com/favicon.ico',
     name: '云通讯'
-  }]
+  }, {
+      url: 'http://www.cl2009.com/',
+      favicon: 'http://www.cl2009.com/favicon.ico',
+      name: '创蓝'
+    }]
 },
 {
   name: '云计算',
@@ -284,7 +288,17 @@ var sites = [
     url: 'http://azure.microsoft.com/',
     favicon: 'http://www.microsoft.com/favicon.ico',
     name: 'Azure'
-  }]
+  },
+    {
+      url: 'http://www.aliyun.com/',
+      favicon: 'http://www.aliyun.com/favicon.ico',
+      name: '阿里云'
+    },
+    {
+      url: 'https://www.openshift.com/',
+      favicon: 'https://www.openshift.com/sites/all/themes/openshift-theme/favicon.ico',
+      name: 'openshift'
+    }]
 },{
     name: '网络调试工具',
     items: [
@@ -298,6 +312,27 @@ var sites = [
         url: 'http://blog.qqbrowser.cc/',
         favicon: 'http://blog.qqbrowser.cc/assets/images/favicon.ico',
         name: '微信调试'
+      }
+    ]
+  },
+  {
+    name: '数据库',
+    items: [
+      {
+        url: 'http://www.mysql.com/',
+        favicon: 'http://www.mysql.com/common/themes/sakila/favicon.ico',
+        name: 'Mysql',
+        title: '用于将本地服务器转化成网络服务器的工具'
+      },
+      {
+        url: 'http://www.postgresql.org/',
+        favicon: 'http://www.postgresql.org/favicon.ico',
+        name: 'PostgreSQL'
+      },
+      {
+        url: 'https://www.mongodb.org/',
+        favicon: 'http://media.mongodb.org/favicon.ico',
+        name: 'Mongodb'
       }
     ]
   }];

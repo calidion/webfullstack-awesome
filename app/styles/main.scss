@@ -36,6 +36,14 @@ body {
     padding-bottom: 19px;
     text-shadow: 1px 1px 2px #333;
   }
+  p {
+    a {
+      vertical-align: top;
+      display: inline-block;
+      line-height: 16px;
+      height: 20px;
+    }
+  }
 }
 
 /* Custom page footer */
@@ -71,19 +79,26 @@ body {
     p.lists {
       a {
         :hover {
-          background-color: #ccc;
+          background-color: #FFF;
         }
+        background-color: beige;
         text-align: center;
         display: inline-block;
-        width: 100px;
+        width: 120px;
         height: 100px;
+        color: #888;
+        box-shadow: 1px 1px 5px #ccc;
+        border-radius: 10px;
+        margin-right: 10px;
         img {
           width: 60px;
           height: 60px;
           border-radius: 30px;
           padding: 5px;
-          border: 5px solid #ccc;
+          border: 5px solid #fff;
           box-shadow: 5px 5px 12px #aaa;
+          margin-bottom: 10px;
+          color: #F16050;
         }
         i.fa {
           color: #5cb85c;
