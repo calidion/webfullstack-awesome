@@ -20,7 +20,7 @@ var sites = [
   }]
 },
 {
-  name: '常用IDE',
+  name: '常用编辑器/IDE',
   items: [
   {
     url: 'http://vim.org',
