@@ -182,7 +182,13 @@ var sites = [
     url: 'http://vuejs.org/',
     favicon: 'http://vuejs.org/images/logo.png',
     name: 'Vuejs'
-  }]
+  },
+  {
+    url: 'http://knockoutjs.com/',
+    favicon: 'images/knockoutjs.png',
+    name: 'Knockoutjs'
+  },
+  ]
 },
 {
   name: 'JS后端或全栈框架',
