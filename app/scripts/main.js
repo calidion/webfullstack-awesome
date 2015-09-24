@@ -187,8 +187,7 @@ var sites = [
     url: 'http://knockoutjs.com/',
     favicon: 'images/knockoutjs.png',
     name: 'Knockoutjs'
-  },
-  ]
+  }]
 },
 {
   name: 'JS后端或全栈框架',
