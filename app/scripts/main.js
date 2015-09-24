@@ -186,6 +186,11 @@ var sites = [
     url: 'http://vuejs.org/',
     favicon: 'http://vuejs.org/images/logo.png',
     name: 'Vuejs'
+  },
+  {
+    url: 'http://knockoutjs.com/',
+    favicon: 'http://knockoutjs.com/img/favicon.ico',
+    name: 'KnockoutJS'
   }]
 },
 {
