@@ -46,6 +46,11 @@ var sites = [
     url: 'https://code.visualstudio.com/',
     favicon: 'https://code.visualstudio.com/Content/images/favicon.ico',
     name: 'VS Code'
+  },
+  {
+    url: 'http://www.sublimetext.com/',
+    favicon: 'http://www.sublimetext.com/favicon.ico',
+    name: 'Sublime Text'
   }]
 },
 {
@@ -209,6 +214,10 @@ var sites = [
       url: 'http://koajs.com/',
       favicon: 'favicon.ico',
       name: 'koajs'
+    },{
+      url: 'http://socket.io/',
+      favicon: 'favicon.ico',
+      name: 'Socket.io'
     }]
 },
 {
