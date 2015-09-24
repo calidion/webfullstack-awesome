@@ -177,6 +177,11 @@ var sites = [
     url: 'http://backbonejs.org/',
     favicon: 'http://backbonejs.org/favicon.ico',
     name: 'Backbone'
+  },
+  {
+    url: 'http://vuejs.org/',
+    favicon: 'http://vuejs.org/images/logo.png',
+    name: 'Vuejs'
   }]
 },
 {
