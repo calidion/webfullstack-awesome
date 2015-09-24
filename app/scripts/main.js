@@ -65,7 +65,11 @@ var sites = [
     url: 'http://gitlab.com',
     favicon: 'https://gitlab.com/assets/favicon-5738a6efe01f3282080df5f467da72a9.ico',
     name: 'GitLab'
-  }]
+  }, {
+      url: 'https://coding.net',
+      favicon: 'http://coding.net/favicon.ico',
+      name: 'Coding'
+    }]
 },
 {
   name: '常用UI框架',
