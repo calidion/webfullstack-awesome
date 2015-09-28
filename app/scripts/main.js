@@ -363,6 +363,7 @@ var sites = [
     items: [
       {
         url: 'http://mochajs.org/',
+        favicon: 'http://mochajs.org/favicon.ico',
         name: 'mocha'
       },
       {
@@ -391,6 +392,14 @@ var sites = [
         url: 'https://travis-ci.org/',
         favicon: 'images/travis-ci.png',
         name: 'travis-ci'
+      }, {
+        url: 'https://saucelabs.com',
+        favicon: 'https://saucelabs.com/favicon.ico',
+        name: 'saucelabs'
+      }, {
+        url: 'https://www.browserstack.com/',
+        favicon: 'images/browserstack.ico',
+        name: 'browserstack'
       }
     ]
   }];
