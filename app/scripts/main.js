@@ -221,7 +221,7 @@ var sites = [
       name: 'koajs'
     },{
       url: 'http://socket.io/',
-      favicon: 'favicon.ico',
+      favicon: 'http://cdn.socket.io/website/imgs/logo.svg',
       name: 'Socket.io'
     }]
 },
@@ -358,7 +358,43 @@ var sites = [
         name: 'Mongodb'
       }
     ]
+  }, {
+    name: '单元测试',
+    items: [
+      {
+        url: 'http://mochajs.org/',
+        name: 'mocha'
+      },
+      {
+        url: 'http://jasmine.github.io/',
+        favicon: 'http://jasmine.github.io/images/jasmine_vertical.svg',
+        name:'jasmine'
+      }, {
+        url: 'http://karma-runner.github.io/',
+        favicon: 'http://karma-runner.github.io/assets/img/favicon/favicon.ico',
+        name: 'karma'
+      },{
+        url: 'http://qunitjs.com/',
+        favicon: 'http://qunitjs.com/jquery-wp-content/themes/qunitjs.com/i/favicon.ico',
+        name: 'QUnit'
+      }
+    ]
+  }, {
+    name: '持续集成(Continuous Integration)',
+    items: [
+      {
+        url: 'http://jenkins-ci.org/',
+        favicon: 'http://jenkins-ci.org/sites/default/files/jenkins_logo.png',
+        name: 'Jenkins'
+      },
+      {
+        url: 'https://travis-ci.org/',
+        favicon: 'images/travis-ci.png',
+        name: 'travis-ci'
+      }
+    ]
   }];
+
 $(document).ready(function ()
 {
   var source = $('#section').html();
@@ -366,6 +402,9 @@ $(document).ready(function ()
   for(var i = 0; i < sites.length; i++)
   {
     var item = sites[i];
+    for(var j = 0; j < item.items; j++) {
+      item.items[j].favicon = item.items[j].favicon || 'images/favicon.ico';
+    }
     $('.links').append(template(item));
   }
 });
