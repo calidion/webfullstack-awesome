@@ -356,6 +356,11 @@ var sites = [
         url: 'https://www.mongodb.org/',
         favicon: 'http://media.mongodb.org/favicon.ico',
         name: 'Mongodb'
+      },
+      {
+        url: 'https://google.github.io/lovefield/',
+        name: 'lovefield',
+        title: '浏览器端的关系数据库'
       }
     ]
   }, {
@@ -402,6 +407,24 @@ var sites = [
         name: 'browserstack'
       }
     ]
+  }, {
+    name: '翻墙工具',
+    items: [
+      {
+        url: 'https://github.com/XX-net/XX-Net',
+        name: 'XX-Net'
+      },
+      {
+        url: 'https://www.torproject.org/',
+        favicon: 'images/tor.ico',
+        name: 'Tor',
+        title: '匿名安全访问'
+      }, {
+        url: 'https://github.com/getlantern/lantern',
+        favicon: 'images/lantern.png',
+        name: 'Lantern'
+      }
+    ]
   }];
 
 $(document).ready(function ()
@@ -411,8 +434,8 @@ $(document).ready(function ()
   for(var i = 0; i < sites.length; i++)
   {
     var item = sites[i];
-    for(var j = 0; j < item.items; j++) {
-      item.items[j].favicon = item.items[j].favicon || 'images/favicon.ico';
+    for(var j = 0; j < item.items.length; j++) {
+      item.items[j].favicon = item.items[j].favicon || 'favicon.ico';
     }
     $('.links').append(template(item));
   }
