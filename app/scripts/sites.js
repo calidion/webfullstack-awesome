@@ -410,6 +410,10 @@ window.sites = [
         url: 'http://qunitjs.com/',
         favicon: 'http://qunitjs.com/jquery-wp-content/themes/qunitjs.com/i/favicon.ico',
         name: 'QUnit'
+      }, {
+        url: 'https://github.com/sstephenson/bats',
+        name: 'bats',
+        title: "Bash Automated Testing System"
       }
     ]
   }, {
