@@ -20,7 +20,7 @@ window.sites = [
         url: 'http://www.guge.link/'
       }]
   }, {
-    name: '翻墙工具',
+    name: '翻墙工具/免费VPN',
     items: [
       {
         url: 'https://github.com/XX-net/XX-Net',
@@ -35,6 +35,10 @@ window.sites = [
         url: 'https://github.com/getlantern/lantern',
         favicon: 'images/lantern.png',
         name: 'Lantern'
+      }, {
+        url: 'https://www.softether.org/',
+        favicon: 'https://www.softether.org/favicon.ico',
+        name: 'SoftEther'
       }
     ]
   },
@@ -413,7 +417,7 @@ window.sites = [
       }, {
         url: 'https://github.com/sstephenson/bats',
         name: 'bats',
-        title: "Bash Automated Testing System"
+        title: 'Bash Automated Testing System'
       }
     ]
   }, {
@@ -436,6 +440,15 @@ window.sites = [
         url: 'https://www.browserstack.com/',
         favicon: 'images/browserstack.ico',
         name: 'browserstack'
+      }
+    ]
+  }, {
+    name: '文档化与Resful API',
+    items: [
+      {
+        url: 'http://swagger.io/',
+        favicon: 'images/swagger.png',
+        name: 'swagger'
       }
     ]
   }];
