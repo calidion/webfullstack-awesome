@@ -14,7 +14,6 @@ window.sites = [
       },
       {
         url: 'http://www.baidu.com',
-        favicon: 'http://www.baidu.com/favicon.ico',
         name: '百度'
       },{
         url: 'http://www.guge.link/'
@@ -24,6 +23,7 @@ window.sites = [
     items: [
       {
         url: 'https://github.com/XX-net/XX-Net',
+        favicon: 'https://avatars2.githubusercontent.com/u/10395542?v=3&s=200',
         name: 'XX-Net'
       },
       {
@@ -37,8 +37,11 @@ window.sites = [
         name: 'Lantern'
       }, {
         url: 'https://www.softether.org/',
-        favicon: 'https://www.softether.org/favicon.ico',
         name: 'SoftEther'
+      }, {
+        url: 'https://www.psiphon3.com',
+        favicon: 'https://www.psiphon3.com/images/icons/favicon.ico',
+        name: '赛风'
       }
     ]
   },
@@ -62,7 +65,6 @@ window.sites = [
       },
       {
         url: 'https://atom.io/',
-        favicon: 'https://atom.io/favicon.ico',
         name: 'Atom'
       },
       {
@@ -72,8 +74,12 @@ window.sites = [
       },
       {
         url: 'http://www.sublimetext.com/',
-        favicon: 'http://www.sublimetext.com/favicon.ico',
         name: 'Sublime Text'
+      },
+      {
+        url: 'https://netbeans.org/',
+        name: 'Netbeans',
+        favicon: 'https://netbeans.org/images_www/favicon.ico'
       }]
   },
   {
@@ -81,12 +87,10 @@ window.sites = [
     items: [
       {
         url: 'https://github.com',
-        favicon: 'http://www.github.com/favicon.ico',
         name: 'GitHub'
       },
       {
         url: 'http://www.bitbucket.org',
-        favicon: 'http://www.bitbucket.org/favicon.ico',
         name: 'BitBucket'
       },
       {
@@ -95,11 +99,9 @@ window.sites = [
         name: 'GitLab'
       }, {
         url: 'https://coding.net',
-        favicon: 'http://coding.net/favicon.ico',
         name: 'Coding'
       }, {
         url: 'http://git-scm.com/',
-        favicon: 'http://git-scm.com/favicon.ico',
         name: 'git'
       }, {
         url: 'https://www.mercurial-scm.org/',
@@ -107,7 +109,6 @@ window.sites = [
         name: 'Mercurial(hg)'
       }, {
         url: 'http://subversion.apache.org/',
-        favicon: 'http://subversion.apache.org/favicon.ico',
         name: 'subversion(svn)'
       }]
   },
@@ -116,12 +117,10 @@ window.sites = [
     items: [
       {
         url: 'http://getbootstrap.com',
-        favicon: 'http://getbootstrap.com/favicon.ico',
         name: 'Bootstrap'
       },
       {
         url: 'http://metroui.org.ua/',
-        favicon: 'http://metroui.org.ua/favicon.ico',
         name: 'Metro UI'
       },
       {
@@ -131,7 +130,6 @@ window.sites = [
       },
       {
         url: 'http://purecss.io/',
-        favicon: 'http://purecss.io/favicon.ico',
         name: 'Pure CSS'
       },
       {
@@ -141,7 +139,6 @@ window.sites = [
       },
       {
         url: 'http://jquerymobile.com/',
-        favicon: 'http://jquerymobile.com/favicon.ico',
         name: 'JQuery Mobile'
       },
       {
@@ -155,17 +152,14 @@ window.sites = [
     items: [
       {
         url: 'http://quirksmode.org/',
-        favicon: 'http://quirksmode.org/favicon.ico',
         name: 'Quicks Mode'
       },
       {
         url: 'http://css-tricks.com/',
-        favicon: 'http://www.css-tricks.com/favicon.ico',
         name: 'css-tricks'
       },
       {
         url: 'http://sass-lang.com/',
-        favicon: 'http://www.sass-lang.com/favicon.ico',
         name: 'Sass'
       },
       {
@@ -184,7 +178,6 @@ window.sites = [
     items: [
       {
         url: 'http://jquery.com/',
-        favicon: 'http://jquery.com/favicon.ico',
         name: 'JQuery Mobile'
       },
       {
@@ -214,7 +207,6 @@ window.sites = [
       },
       {
         url: 'http://backbonejs.org/',
-        favicon: 'http://backbonejs.org/favicon.ico',
         name: 'Backbone'
       },
       {
@@ -238,7 +230,6 @@ window.sites = [
       },
       {
         url: 'http://sailsjs.org/',
-        favicon: 'http://sailsjs.org/favicon.ico',
         name: 'Sails JS'
       },
       {
@@ -256,17 +247,11 @@ window.sites = [
       }]
   },
   {
-    name: 'nodejs/iojs/ECMAScript',
+    name: 'nodejs/ECMAScript',
     items: [
       {
         url: 'http://nodejs.org',
-        favicon: 'http://nodejs.org/favicon.ico',
         name: 'Node.js'
-      },
-      {
-        url: 'https://iojs.org/',
-        favicon: 'https://iojs.org/images/1.0.0.png',
-        name: 'io.js'
       },
       {
         url: 'https://babeljs.io/',
@@ -284,13 +269,15 @@ window.sites = [
     items: [
       {
         url: 'http://jsfiddle.net/',
-        favicon: 'http://jsfiddle.net/favicon.ico',
         name: 'JS Fiddle'
       },
       {
         url: 'https://codepen.io/',
-        favicon: 'https://codepen.io/favicon.ico',
         name: 'Code Pen'
+      },
+      {
+        url: 'http://plnkr.co/',
+        name: 'Plunker'
       }]
   },
   {
@@ -298,7 +285,6 @@ window.sites = [
     items: [
       {
         url: 'http://asmjs.org/',
-        favicon: 'http://asmjs.org/favicon.ico',
         name: 'ASM.JS'
       },
       {
@@ -317,11 +303,9 @@ window.sites = [
       },
       {
         url: 'http://www.yuntongxun.com/',
-        favicon: 'http://www.yuntongxun.com/favicon.ico',
         name: '云通讯'
       }, {
         url: 'http://www.cl2009.com/',
-        favicon: 'http://www.cl2009.com/favicon.ico',
         name: '创蓝'
       }]
   },
@@ -335,17 +319,16 @@ window.sites = [
       },
       {
         url: 'http://azure.microsoft.com/',
-        favicon: 'http://www.microsoft.com/favicon.ico',
+        favicon: 'https://azure.microsoft.com/images/icon/favicon.ico',
         name: 'Azure'
       },
       {
         url: 'http://www.aliyun.com/',
-        favicon: 'http://www.aliyun.com/favicon.ico',
         name: '阿里云'
       },
       {
         url: 'https://www.openshift.com/',
-        favicon: 'https://www.openshift.com/sites/all/themes/openshift-theme/favicon.ico',
+        favicon: 'https://assets.openshift.net/content/subdomain/favicon32x32.png',
         name: 'openshift'
       }]
   }, {
@@ -375,7 +358,6 @@ window.sites = [
       },
       {
         url: 'http://www.postgresql.org/',
-        favicon: 'http://www.postgresql.org/favicon.ico',
         name: 'PostgreSQL'
       },
       {
@@ -390,6 +372,7 @@ window.sites = [
       },
       {
         url: 'https://google.github.io/lovefield/',
+        favicon: 'http://www.github.com/favicon.ico',
         name: 'lovefield',
         title: '浏览器端的关系数据库'
       }
@@ -399,7 +382,6 @@ window.sites = [
     items: [
       {
         url: 'http://mochajs.org/',
-        favicon: 'http://mochajs.org/favicon.ico',
         name: 'mocha'
       },
       {
@@ -416,6 +398,7 @@ window.sites = [
         name: 'QUnit'
       }, {
         url: 'https://github.com/sstephenson/bats',
+        favicon: 'https://github.com/favicon.ico',
         name: 'bats',
         title: 'Bash Automated Testing System'
       }
@@ -434,7 +417,6 @@ window.sites = [
         name: 'travis-ci'
       }, {
         url: 'https://saucelabs.com',
-        favicon: 'https://saucelabs.com/favicon.ico',
         name: 'saucelabs'
       }, {
         url: 'https://www.browserstack.com/',
