@@ -91,7 +91,7 @@ body {
         border-radius: 10px;
         margin-right: 10px;
         margin-top: 15px;
-        img {
+        img, span {
           width: 60px;
           height: 60px;
           border-radius: 30px;
@@ -99,7 +99,13 @@ body {
           border: 5px solid #fff;
           box-shadow: 5px 5px 12px #aaa;
           margin-bottom: 10px;
-          color: #F16050;
+        }
+        span {
+          font-size: 30px;
+          line-height: 40px;
+          color: #43D258;
+          text-align: center;
+          display: inline-block;
         }
         i.fa {
           color: #5cb85c;
