@@ -42,6 +42,10 @@ window.sites = [
         url: 'https://www.psiphon3.com',
         favicon: 'https://www.psiphon3.com/images/icons/favicon.ico',
         name: '赛风'
+      }, {
+        url: 'https://shadowsocks.org',
+        favicon: 'https://shadowsocks.org/assets/img/favicon/favicon.ico',
+        name: 'shadowsocks'
       }
     ]
   },
