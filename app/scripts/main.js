@@ -10,4 +10,7 @@ $(document).ready(function () {
     }
     $('.links').append(template(item));
   }
+  $('img').on('error', function() {
+    this.src = 'https://assets-cdn.github.com/favicon.ico';
+  });
 });
