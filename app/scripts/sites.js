@@ -368,4 +368,20 @@ window.sites = [{
     favicon: 'images/swagger.png',
     name: 'swagger'
   }]
+}, {
+  name: '网络安全',
+  items: [{
+    url: 'https://letsencrypt.org/',
+    name:'letsencrypt',
+    title: '免费的SSL证书发放'
+  }]
+}, {
+  name: '开源文化与项目',
+  items : [
+    {
+      url: 'https://www.gnu.org/',
+      name: 'GNU',
+      title: '自由软件GNU项目'
+    }
+  ]
 }];
