@@ -67,6 +67,9 @@ window.sites = [{
     url: 'https://netbeans.org/',
     name: 'Netbeans',
     favicon: 'https://netbeans.org/images_www/favicon.ico'
+  }, {
+    url: 'https://www.jetbrains.com/idea/',
+    name: 'IntelliJ IDEA'
   }]
 }, {
   name: '代码托管与版本管理工具',
@@ -173,6 +176,10 @@ window.sites = [{
     url: 'http://knockoutjs.com/',
     favicon: 'http://knockoutjs.com/img/favicon.ico',
     name: 'KnockoutJS'
+  }, {
+    url: 'http://avalonjs.github.io/',
+    name: 'AvalonJS',
+    favicon: 'http://www.avalon.org.cn/static/img/avalon.png'
   }]
 }, {
   name: 'JS后端或全栈框架',
