@@ -26,5 +26,8 @@ module.exports = {
     url: 'https://netbeans.org/',
     name: 'Netbeans',
     favicon: 'https://netbeans.org/images_www/favicon.ico'
+  }, {
+    url: 'https://www.jetbrains.com/idea/',
+    name: 'IntelliJ IDEA'
   }]
 }

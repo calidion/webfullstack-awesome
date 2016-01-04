@@ -30,5 +30,9 @@ module.exports = {
     url: 'http://knockoutjs.com/',
     favicon: 'http://knockoutjs.com/img/favicon.ico',
     name: 'KnockoutJS'
+  }, {
+    url: 'http://avalonjs.github.io/',
+    name: 'AvalonJS',
+    favicon: 'http://www.avalon.org.cn/static/img/avalon.png'
   }]
 };
