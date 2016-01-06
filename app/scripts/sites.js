@@ -202,6 +202,11 @@ window.sites = [{
     url: 'http://socket.io/',
     favicon: 'http://cdn.socket.io/website/imgs/logo.svg',
     name: 'Socket.io'
+  },
+  {
+    url: 'http://thinkjs.org/',
+    favicon: 'http://p8.qhimg.com/d/inn/0be2a704/thinkjs.png',
+    name: 'ThinkJS'
   }]
 }, {
   name: 'nodejs/ECMAScript',
