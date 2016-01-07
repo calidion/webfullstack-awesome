@@ -51,6 +51,18 @@ gulp.task('html', ['styles'], () => {
     .pipe(gulp.dest('dist'));
 });
 
+
+gulp.task('statics', () => {
+  return gulp.src(['app/CNAME'])
+    .pipe(gulp.dest('dist'));
+});
+
+gulp.task('data', () => {
+  return gulp.src(['app/data/**'])
+    .pipe(gulp.dest('dist/data'));
+});
+
+
 gulp.task('images', () => {
   return gulp.src('app/images/**/*')
     .pipe($.if($.if.isFile, $.cache($.imagemin({
@@ -153,7 +165,7 @@ gulp.task('wiredep', () => {
     .pipe(gulp.dest('app'));
 });
 
-gulp.task('build', ['lint', 'html', 'images', 'fonts', 'extras'], () => {
+gulp.task('build', ['lint', 'html', 'images', 'fonts', 'extras', 'statics', 'data'], () => {
   return gulp.src('dist/**/*').pipe($.size({title: 'build', gzip: true}));
 });
 
