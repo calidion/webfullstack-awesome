@@ -1,4 +1,8 @@
 'use strict';
+
+/*global $:true*/
+/*eslint no-undef: 2*/
+
 $(document).ready(function () {
   var sites = window.sites;
   var source = $('#section').html();

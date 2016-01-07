@@ -16,7 +16,7 @@ window.sites = [{
   name: '翻墙工具/免费VPN',
   items: [{
     url: 'https://github.com/XX-net/XX-Net',
-    favicon: 'https://avatars2.githubusercontent.com/u/10395542?v=3&s=200',
+    favicon: 'https://avatars3.githubusercontent.com/u/10395542?v=3&s=200',
     name: 'XX-Net'
   }, {
     url: 'https://www.torproject.org/',
@@ -379,16 +379,14 @@ window.sites = [{
   name: '网络安全',
   items: [{
     url: 'https://letsencrypt.org/',
-    name:'letsencrypt',
+    name: 'letsencrypt',
     title: '免费的SSL证书发放'
   }]
 }, {
   name: '开源文化与项目',
-  items : [
-    {
-      url: 'https://www.gnu.org/',
-      name: 'GNU',
-      title: '自由软件GNU项目'
-    }
-  ]
+  items: [{
+    url: 'https://www.gnu.org/',
+    name: 'GNU',
+    title: '自由软件GNU项目'
+  }]
 }];

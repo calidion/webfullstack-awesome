@@ -1,10 +1,12 @@
-/* global describe, it, assert, sites */
-
-(function (sites) {
+/*global assert:true*/
+/*eslint no-undef: 2*/
+(function (assert) {
   'use strict';
 
-  describe('maybe a bit more context here', function () {
-    it('should run here few assertions', function () {
+  describe('Full stack web developer\'s sites guidance', function () {
+    it('should run a few assertions here', function () {
+      console.log(window);
+      var sites = window.sites;
       assert.equal(true, sites.length > 1);
       for (var i = 0; i < sites.length; i++) {
         var item = sites[i];
@@ -19,4 +21,4 @@
       }
     });
   });
-})(sites);
+})(assert);

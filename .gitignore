@@ -3,6 +3,7 @@ dist
 .tmp
 .sass-cache
 bower_components
+test/bower_components
 
 ### Node template
 # Logs
