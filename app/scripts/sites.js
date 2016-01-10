@@ -395,7 +395,7 @@ window.sites = [{
   name: '静态博客工具或服务',
   items: [{
     url: 'http://surge.sh/',
-    favicon:'http://surge.sh/images/logos/svg/surge-logo.svg',
+    favicon: 'http://surge.sh/images/logos/svg/surge-logo.svg',
     name: 'surge.sh',
     title: 'surge.sh静态网站服务'
   }, {
