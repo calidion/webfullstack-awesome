@@ -28,7 +28,7 @@
 <![endif]-->
 <p>
   <a href="https://github.com/3gcnbeta/www"><img style="position: absolute; top: 0; right: 0; border: 0;"
-                                                 src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67"
+                                                 ng-src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67"
                                                  alt="Fork me on GitHub"
                                                  data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
 </p>
@@ -36,9 +36,9 @@
 <div class="container">
   <div class="header">
     <p class="nav nav-pills pull-right">
-      <a href="https://github.com/3gcnbeta/www/"><img src="https://img.shields.io/github/stars/3gcnbeta/www.svg"/></a>
-      <a href="https://github.com/3gcnbeta/www/fork"><img src="https://img.shields.io/github/forks/3gcnbeta/www.svg"/></a>
-      <a href="https://github.com/3gcnbeta/www/"><img src="https://img.shields.io/github/watchers/3gcnbeta/www.svg"/></a> 
+      <a href="https://github.com/3gcnbeta/www/"><img ng-src="https://img.shields.io/github/stars/3gcnbeta/www.svg"/></a>
+      <a href="https://github.com/3gcnbeta/www/fork"><img ng-src="https://img.shields.io/github/forks/3gcnbeta/www.svg"/></a>
+      <a href="https://github.com/3gcnbeta/www/"><img ng-src="https://img.shields.io/github/watchers/3gcnbeta/www.svg"/></a> 
       <a href="https://github.com/3gcnbeta/www/issues/1" target="_blank" class="btn btn-xs btn-danger">报告问题</a>
       <a href="https://github.com/3gcnbeta/www/issues/2" target="_blank" class="btn btn-xs btn-success">提交新站</a>
     </p>
@@ -114,11 +114,9 @@
 
     <p class="lists">
       {{#each items}}
-      <a target="_blank" title="{{title}}" href="{{url}}" class="btn"><img src="{{favicon}}"/><br/>{{name}}</a>
+      <a target="_blank" title="{{title}}" href="{{url}}" class="btn btn-default"><img ng-src="{{favicon}}"/>&nbsp;{{name}}</a>
       {{/each}}
-      <a target="_blank" title="没有我知道的站点" href="https://github.com/3gcnbeta/www/issues/2" class="btn"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-        <br/>站点不全？</a>
-
+      <a target="_blank" title="没有我知道的站点" href="https://github.com/3gcnbeta/www/issues/2" class="btn btn-default add"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span></a>
     </p>
   </section>
 </script>

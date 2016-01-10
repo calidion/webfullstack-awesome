@@ -51,7 +51,7 @@ window.sites = [{
     name: 'Emacs'
   }, {
     url: 'https://www.jetbrains.com/webstorm/',
-    favicon: 'https://www.jetbrains.com/webstorm/favicon.ico',
+    favicon: '/images/jetbrains.ico',
     name: 'Web Storm'
   }, {
     url: 'https://atom.io/',
@@ -69,6 +69,7 @@ window.sites = [{
     favicon: 'https://netbeans.org/images_www/favicon.ico'
   }, {
     url: 'https://www.jetbrains.com/idea/',
+    favicon: '/images/jetbrains.ico',
     name: 'IntelliJ IDEA'
   }]
 }, {
@@ -81,7 +82,7 @@ window.sites = [{
     name: 'BitBucket'
   }, {
     url: 'http://gitlab.com',
-    favicon: 'https://gitlab.com/assets/favicon-5738a6efe01f3282080df5f467da72a9.ico',
+    favicon: '/images/gitlab.ico',
     name: 'GitLab'
   }, {
     url: 'https://coding.net',
@@ -140,9 +141,9 @@ window.sites = [{
     favicon: 'http://lesscss.org/public/ico/favicon.ico',
     name: 'Less'
   }, {
-    url: 'http://learnboost.github.io/stylus/',
-    favicon: 'http://learnboost.github.io/stylus/docs/graphics/Logos/stylus.png',
-    name: 'Less'
+    url: 'http://stylus-lang.com/',
+    favicon: 'http://stylus-lang.com/favicon.ico',
+    name: 'Stylus'
   }]
 }, {
   name: 'JS前端框架、模板类库等',
@@ -232,7 +233,8 @@ window.sites = [{
     favicon: '',
     name: 'ect'
   }, {
-    url: 'http://paularmstrong.github.io/swig/',
+    url: 'http://paularmstrong.github.io/swig',
+    favicon: 'favicon.ico',
     name: 'swig'
   }, {
     name: 'ejs',

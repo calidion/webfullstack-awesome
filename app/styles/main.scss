@@ -60,20 +60,21 @@ body {
 
 .nav {
   margin-right: 80px;
+      line-height: 2rem;
 }
 .links {
   section {
     h3 {
       padding-left: 10px;
       margin: 0;
-      font-size: 1.5rem;
+      // font-size: 1.5rem;
       color: #888;
-      border-bottom: 3px solid rgb(55, 126, 255);
-      height: 2.5rem;
-      line-height: 2rem;
-      margin-bottom: 10px;
-      text-shadow: 1px 1px 1px #ccc;
-      font-size: 2rem;
+      border-bottom: 1px solid rgb(55, 126, 255);
+      // height: 2.5rem;
+      // line-height: 2rem;
+      margin-bottom: 5px;
+      // text-shadow: 1px 1px 1px #ccc;
+      font-size: 1.5rem;
     }
     p.lists {
       padding-left: 20px;
@@ -81,37 +82,50 @@ body {
         :hover {
           background-color: #FFF;
         }
+        font-size: 1.4rem;
+        margin-top: 5px;
 
-        background-color: beige;
-        text-align: center;
-        display: inline-block;
-        width: 120px;
-        height: 100px;
-        color: #888;
-        box-shadow: 1px 1px 5px #ccc;
-        border-radius: 10px;
-        margin-right: 10px;
-        margin-top: 15px;
+        // background-color: beige;
+        // text-align: center;
+        // display: inline-block;
+        // width: 120px;
+        // height: 100px;
+        // color: #888;
+        // box-shadow: 1px 1px 5px #ccc;
+        border-radius: 20px;
+        // margin-right: 10px;
+        // margin-top: 15px;
         img, span {
-          width: 60px;
-          height: 60px;
-          border-radius: 30px;
-          padding: 5px;
-          border: 5px solid #fff;
-          box-shadow: 5px 5px 12px #aaa;
-          margin-bottom: 10px;
+          width: 16px;
+          height: 16px;
+          border-radius: 16px;
+          margin-top: -5px;
         }
         span {
-          font-size: 30px;
-          line-height: 40px;
+          // font-size: 30px;
+          // line-height: 40px;
           color: #43D258;
-          text-align: center;
-          display: inline-block;
+          // text-align: center;
+          // display: inline-block;
         }
         i.fa {
           color: #5cb85c;
           display: block;
-          font-size: 5rem;
+          // font-size: 5rem;
+        }
+      }
+      a.add {
+
+        border-radius: 15px;
+    width: 34px;
+    padding: 0;
+    height: 30px;
+    width: 30px;
+    line-height: 29px;
+    padding-left: 2px;
+        span{
+          width: auto;
+          height: auto;
         }
       }
     }
