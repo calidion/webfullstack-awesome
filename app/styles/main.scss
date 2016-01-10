@@ -64,6 +64,8 @@ body {
 }
 .links {
   section {
+    display: inline-block;
+    vertical-align: top;
     h3 {
       padding-left: 10px;
       margin: 0;
