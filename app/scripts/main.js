@@ -17,6 +17,7 @@ window.onload = function() {
   });
   var source = $('#section').html();
   var template = window.Handlebars.compile(source);
+  $('.links').html('');
   for (var i = 0; i < sites.length; i++) {
     var item = sites[i];
 

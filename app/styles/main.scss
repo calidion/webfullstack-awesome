@@ -1,6 +1,7 @@
 $icon-font-path: '../fonts/';
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "bower_components/font-awesome/scss/font-awesome.scss";
 // endbower
 .browsehappy {
   margin: 0.2em 0;
@@ -29,7 +30,7 @@ body {
     margin-top: 0;
     margin-bottom: 0;
     line-height: 40px;
-    padding-bottom: 19px;
+    // padding-bottom: 19px;
     text-shadow: 1px 1px 2px #333;
   }
   p {
@@ -60,7 +61,7 @@ body {
     vertical-align: top;
     h3 {
       padding-left: 10px;
-      margin: 0;
+      margin: 0 5px 5px 5px;
       // font-size: 1.5rem;
       color: #888;
       border-bottom: 1px solid rgb(55, 126, 255);
@@ -160,7 +161,7 @@ body {
     section {
       p.lists {
         text-align: center;
-        padding: 0;
+        padding: 0 5px;
         a {
           margin-right: 10px;
           margin-top: 15px;
