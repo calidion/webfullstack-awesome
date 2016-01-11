@@ -238,6 +238,10 @@ window.sites = [{
     url: 'https://github.com/google/traceur-compiler',
     favicon: 'images/google.ico',
     name: 'traceur'
+  }, {
+    url: 'http://kangax.github.io/compat-table/es6/',
+    favicon: 'http://kangax.github.io/compat-table/favicon.ico',
+    name: 'Compatibility Table'
   }]
 }, {
   name: 'nodejs模板引擎',
@@ -281,7 +285,13 @@ window.sites = [{
   }, {
     url: 'https://code.google.com/p/v8/',
     favicon: 'images/v8.png',
-    name: 'V8'
+    name: 'V8',
+    title: 'Chrome的js引擎'
+  }, {
+    url: 'https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey',
+    favicon: 'images/spidermonkey.png',
+    name: 'SpiderMonkey',
+    title: 'FireFox的js引擎'
   }]
 }, {
   name: '短信平台',
@@ -350,7 +360,7 @@ window.sites = [{
     name: 'mariadb'
   }, {
     url: 'https://google.github.io/lovefield/',
-    favicon: 'http://www.github.com/favicon.ico',
+    favicon: '/images/lovefield.png',
     name: 'lovefield',
     title: '浏览器端的关系数据库'
   }]
