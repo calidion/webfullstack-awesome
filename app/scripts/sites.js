@@ -74,7 +74,13 @@ window.sites = [{
     url: 'https://www.jetbrains.com/idea/',
     favicon: '/images/jetbrains.ico',
     name: 'IntelliJ IDEA'
-  }]
+  }
+  ,{
+    url: 'http://brackets.io/',
+    favicon: 'http://brackets.io/favicon.ico',
+    name: 'Adobe Brackets'
+  }
+]
 }, {
   name: '代码托管与版本管理工具',
   items: [{
