@@ -158,8 +158,21 @@ body {
   }
 }
 @media screen and (max-width: 768px) {
+  body {
+    padding-top: 5px;
+  }
+  .header {
+    border-bottom: 5px solid #e5e5e5;
+    margin-bottom: 10px;
+
+    /* Make the masthead heading the same height as the navigation */
+    h3 {
+      text-align: center;
+    }
+  }
   .links {
     section {
+      display: block;
       p.lists {
         text-align: center;
         padding: 0 5px;

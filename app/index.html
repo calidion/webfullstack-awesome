@@ -26,7 +26,7 @@
 <p class="browsehappy">你使用的浏览器已经<strong>过时</strong>。请<a target="_blank"
                                                         href="http://browsehappy.com/">升级</a>您的浏览器</p>
 <![endif]-->
-  <p>
+  <p class="hidden-xs">
     <a href="https://github.com/3gcnbeta/www">
       <img style="position: absolute; top: 0; right: 0; border: 0;" ng-src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67"
       alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png">
@@ -35,7 +35,7 @@
 
   <div class="container">
     <div class="header">
-      <p class="nav nav-pills pull-right">
+      <p class="nav nav-pills pull-right hidden-xs">
         <a href="https://github.com/3gcnbeta/www/">
           <img ng-src="https://img.shields.io/github/stars/3gcnbeta/www.svg?style=social&label=Star" />
         </a>
@@ -99,33 +99,6 @@
   <script src="scripts/sites.js"></script>
   <script src="scripts/main.js"></script>
   <!-- endbuild -->
-  <script>
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "//hm.baidu.com/hm.js?44803dbbe25f0d2514f96165f0954d37";
-      var s = document.getElementsByTagName("script")[0];
-      s.parentNode.insertBefore(hm, s);
-    })();
-  </script>
-
-  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-  <script>
-    (function(b, o, i, l, e, r) {
-      b.GoogleAnalyticsObject = l;
-      b[l] || (b[l] =
-        function() {
-          (b[l].q = b[l].q || []).push(arguments)
-        });
-      b[l].l = +new Date;
-      e = o.createElement(i);
-      r = o.getElementsByTagName(i)[0];
-      e.src = '//www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e, r)
-    }(window, document, 'script', 'ga'));
-    ga('create', 'UA-12680566-3');
-    ga('send', 'pageview');
-  </script>
 
   <!-- build:js({app,.tmp}) scripts/main.js -->
   <script src="scripts/sites.js"></script>
@@ -143,12 +116,38 @@
         <a target="_blank" title="{{title}}" href="{{url}}" class="btn btn-default">
           <img ng-src="{{favicon}}" />&nbsp;{{name}}</a>
         {{/each}}
-        <a target="_blank" title="没有我知道的站点" href="https://github.com/3gcnbeta/www/issues/2" class="btn btn-default add">
+        <a target="_blank" title="没有我知道的站点" href="https://github.com/3gcnbeta/www/issues/2" class="btn btn-default add hidden-xs">
           <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
         </a>
       </p>
     </section>
   </script>
 </body>
+<script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "//hm.baidu.com/hm.js?44803dbbe25f0d2514f96165f0954d37";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
 
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+  (function(b, o, i, l, e, r) {
+    b.GoogleAnalyticsObject = l;
+    b[l] || (b[l] =
+      function() {
+        (b[l].q = b[l].q || []).push(arguments)
+      });
+    b[l].l = +new Date;
+    e = o.createElement(i);
+    r = o.getElementsByTagName(i)[0];
+    e.src = '//www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e, r)
+  }(window, document, 'script', 'ga'));
+  ga('create', 'UA-12680566-3');
+  ga('send', 'pageview');
+</script>
 </html>
