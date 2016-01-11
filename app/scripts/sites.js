@@ -189,6 +189,12 @@ window.sites = [{
     favicon: 'http://expressjs.com/images/strongloop-logo.png',
     name: 'Express JS'
   }, {
+    url: 'https://strongloop.com/',
+    name: 'strongloop loopback'
+  }, {
+    url: 'http://restify.com/',
+    name: 'restify JS'
+  }, {
     url: 'http://sailsjs.org/',
     name: 'Sails JS'
   }, {
