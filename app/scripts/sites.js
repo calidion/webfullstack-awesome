@@ -421,7 +421,7 @@ window.sites = [{
   name: '浏览器',
   items: [{
     url: 'https://www.google.com/chrome/',
-    favicon: '/images/chrome.svg',
+    favicon: '/images/chrome.png',
     name: 'Chrome'
   }, {
     url: 'https://www.mozilla.org/en-US/firefox/products/',
