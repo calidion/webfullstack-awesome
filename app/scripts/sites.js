@@ -74,13 +74,11 @@ window.sites = [{
     url: 'https://www.jetbrains.com/idea/',
     favicon: '/images/jetbrains.ico',
     name: 'IntelliJ IDEA'
-  }
-  ,{
+  }, {
     url: 'http://brackets.io/',
     favicon: 'http://brackets.io/favicon.ico',
     name: 'Adobe Brackets'
-  }
-]
+  }]
 }, {
   name: '代码托管与版本管理工具',
   items: [{
@@ -190,18 +188,15 @@ window.sites = [{
     url: 'http://avalonjs.github.io/',
     name: 'AvalonJS',
     favicon: 'http://www.avalon.org.cn/static/img/avalon.png'
-  }
-  ,{
-    url: 'http://www.polymer-project.org/'
-    ,name: 'PolymerJS'
-    ,favicon: 'http://docs.polymerchina.org/images/logos/p-logo-32.png'
-  }
-  ,{
-    url: 'http://novajs.com/'
-    ,name: 'NovaJS'
-    ,favicon: 'http://novajs.com/static/img/logo.png'
-  }
-]
+  }, {
+    url: 'http://www.polymer-project.org/',
+    name: 'PolymerJS',
+    favicon: 'http://docs.polymerchina.org/images/logos/p-logo-32.png'
+  }, {
+    url: 'http://novajs.com/',
+    name: 'NovaJS',
+    favicon: 'http://novajs.com/static/img/logo.png'
+  }]
 }, {
   name: 'JS后端或全栈框架',
   items: [{
@@ -322,8 +317,7 @@ window.sites = [{
     url: 'https://www.docker.com/',
     favicon: '/images/docker.png',
     name: 'Docker'
-  }
-]
+  }]
 }, {
   name: '网络调试工具',
   items: [{

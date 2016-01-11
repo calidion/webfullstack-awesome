@@ -83,10 +83,10 @@ body {
     }
     p.lists {
       padding-left: 20px;
-      a {
-         :hover {
-          background-color: #FFF;
-        }
+      a.btn-default:hover {
+        transform: scale(1.2, 1.2);
+      }
+      a.btn-default {
         font-size: 1.4rem;
         margin-top: 5px;
         // background-color: beige;
@@ -113,6 +113,7 @@ body {
           // text-align: center;
           // display: inline-block;
         }
+        transition: 1s ease-out;
         i.fa {
           color: #5cb85c;
           display: block;
