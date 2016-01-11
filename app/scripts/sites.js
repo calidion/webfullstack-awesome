@@ -224,13 +224,11 @@ window.sites = [{
     url: 'http://socket.io/',
     favicon: 'http://cdn.socket.io/website/imgs/logo.svg',
     name: 'Socket.io'
-  }
-  ,{
+  }, {
     url: 'http://hapijs.com',
     favicon: 'http://hapijs.com/public/img/favicon.png',
     name: 'Hapi'
-  }
-]
+  }]
 }, {
   name: 'nodejs/ECMAScript',
   items: [{
