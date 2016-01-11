@@ -1,5 +1,6 @@
 window.sites = [{
   name: '搜索引擎服务',
+  order: 1,
   items: [{
     url: 'http://www.google.com',
     favicon: 'images/google.ico',
@@ -14,6 +15,7 @@ window.sites = [{
   }]
 }, {
   name: '翻墙工具/免费VPN',
+  order: 2,
   items: [{
     url: 'https://github.com/XX-net/XX-Net',
     favicon: 'https://avatars3.githubusercontent.com/u/10395542?v=3&s=200',
@@ -41,6 +43,7 @@ window.sites = [{
   }]
 }, {
   name: '常用编辑器/IDE',
+  order: 3,
   items: [{
     url: 'http://vim.org',
     favicon: 'http://www.vim.org/images/vim_shortcut.ico',
@@ -292,7 +295,12 @@ window.sites = [{
     url: 'https://www.openshift.com/',
     favicon: 'https://assets.openshift.net/content/subdomain/favicon32x32.png',
     name: 'openshift'
-  }]
+  }, {
+    url: 'https://www.docker.com/',
+    favicon: '/images/docker.png',
+    name: 'Docker'
+  }
+]
 }, {
   name: '网络调试工具',
   items: [{
@@ -402,5 +410,16 @@ window.sites = [{
     url: 'https://hexo.io/',
     favicon: 'https://hexo.io/icon/apple-touch-icon-152x152.png',
     name: 'hexo'
+  }]
+}, {
+  name: '浏览器',
+  items: [{
+    url: 'https://www.google.com/chrome/',
+    favicon: '/images/chrome.svg',
+    name: 'Chrome'
+  }, {
+    url: 'https://www.mozilla.org/en-US/firefox/products/',
+    favicon: 'images/firefox.png',
+    name: 'firefox'
   }]
 }];
