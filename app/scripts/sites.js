@@ -184,7 +184,18 @@ window.sites = [{
     url: 'http://avalonjs.github.io/',
     name: 'AvalonJS',
     favicon: 'http://www.avalon.org.cn/static/img/avalon.png'
-  }]
+  }
+  ,{
+    url: 'http://www.polymer-project.org/'
+    ,name: 'PolymerJS'
+    ,favicon: 'http://docs.polymerchina.org/images/logos/p-logo-32.png'
+  }
+  ,{
+    url: 'http://novajs.com/'
+    ,name: 'NovaJS'
+    ,favicon: 'http://novajs.com/static/img/logo.png'
+  }
+]
 }, {
   name: 'JS后端或全栈框架',
   items: [{
