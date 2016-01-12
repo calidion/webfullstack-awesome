@@ -4,30 +4,35 @@
 /*eslint no-undef: 2*/
 
 window.onload = function() {
-  function sort(a, b) {
-    a.order = a.order || 10000;
-    b.order = b.order || 10000;
-    if (a.order > b.order) {
-      return 1;
-    }
-    if (a.order < b.order) {
-      return -1;
-    }
-    return 0;
-  }
   var source = $('#section').html();
   var template = window.Handlebars.compile(source);
   var itemSource = $('#item').html();
   var itemTemplate = window.Handlebars.compile(itemSource);
   $('.links').html('');
 
+  function sort(a, b) {
+    var left = a.order || 10000;
+    var right = b.order || 10000;
+    if (left > right) {
+      return 1;
+    }
+    if (left < right) {
+      return -1;
+    }
+    return 0;
+  }
+
   function getItem(item) {
+    console.log(item);
+
     var sub = [];
     if (!item) {
       return '';
     }
     if (item.items && item.items.length) {
+      console.log(item.items);
       var items = item.items.sort(sort);
+      console.log(items);
       for (var j = 0; j < items.length; j++) {
         if (items[j]) {
           sub.push(getItem(items[j]));
