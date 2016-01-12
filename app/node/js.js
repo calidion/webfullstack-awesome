@@ -3,6 +3,7 @@ module.exports = {
   items: [
     {
       name: 'JS引擎',
+      order: 2,
       items: [{
         url: 'https://code.google.com/p/v8/',
         favicon: 'images/v8.png',
@@ -17,6 +18,7 @@ module.exports = {
     },
     {
       name: 'JS框架',
+      order: 1,
       items: [
         {
           name: '前端模板框架',
