@@ -56,33 +56,36 @@ body {
   line-height: 2rem;
 }
 .links {
-  section {
-    display: inline-block;
+  ul {
     vertical-align: top;
+    list-style: none;
+    padding-left: 2px;
+    h3:hover {
+      border-left: 20px solid #838;
+    }
     h3 {
+      border-left: 3px solid #838;
+      transition: border-left 1s;
+      transition-timing-function: ease-out;
       padding-left: 10px;
       margin: 0 5px 5px 5px;
-      // font-size: 1.5rem;
       color: #888;
       border-bottom: 1px solid rgb(55, 126, 255);
-      // height: 2.5rem;
-      // line-height: 2rem;
       margin-bottom: 5px;
       text-shadow: 1px 1px 1px #ccc;
       font-size: 1.6rem;
-      border-left: 3px solid #838;
       margin-left: 5px;
-      transition: border-left 1s;
-      transition-timing-function: ease-out;
       span {
         color: #009688;
       }
     }
-    h3:hover {
-      border-left: 20px solid #838;
+    li.title {
+      padding-top: 5px;
     }
-    p.lists {
-      padding-left: 20px;
+    li {
+      display: inline-block;
+      vertical-align: top;
+      padding-left: 10px;
       a.btn-default:hover {
         transform: scale(1.2, 1.2);
       }
@@ -134,6 +137,9 @@ body {
         }
       }
     }
+  }
+  ul.root {
+    border:0;
   }
 }
 /* Responsive: Portrait tablets and up */

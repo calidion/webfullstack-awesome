@@ -1,16 +1,9 @@
 module.exports = {
-  name: '常用编辑器/IDE',
+  name: '常用IDE',
+  order: 3,
   items: [{
-    url: 'http://vim.org',
-    favicon: 'http://www.vim.org/images/vim_shortcut.ico',
-    name: 'Vim'
-  }, {
-    url: 'http://www.gnu.org/software/emacs/',
-    favicon: 'http://www.gnu.org/graphics/gnu-head-mini.png',
-    name: 'Emacs'
-  }, {
     url: 'https://www.jetbrains.com/webstorm/',
-    favicon: 'https://www.jetbrains.com/webstorm/favicon.ico',
+    favicon: '/images/jetbrains.ico',
     name: 'Web Storm'
   }, {
     url: 'https://atom.io/',
@@ -20,14 +13,16 @@ module.exports = {
     favicon: 'https://code.visualstudio.com/Content/images/favicon.ico',
     name: 'VS Code'
   }, {
-    url: 'http://www.sublimetext.com/',
-    name: 'Sublime Text'
-  }, {
     url: 'https://netbeans.org/',
     name: 'Netbeans',
     favicon: 'https://netbeans.org/images_www/favicon.ico'
   }, {
     url: 'https://www.jetbrains.com/idea/',
+    favicon: '/images/jetbrains.ico',
     name: 'IntelliJ IDEA'
+  }, {
+    url: 'http://brackets.io/',
+    favicon: 'http://brackets.io/favicon.ico',
+    name: 'Adobe Brackets'
   }]
-}
+};

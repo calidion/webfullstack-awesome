@@ -59,6 +59,7 @@ gulp.task('statics', () => {
 
 gulp.task('data', () => {
   return gulp.src(['app/data/**'])
+    .pipe(gulp.dest('.tmp/data'))
     .pipe(gulp.dest('dist/data'));
 });
 
@@ -112,12 +113,14 @@ gulp.task('serve', ['styles', 'fonts'], () => {
   gulp.watch([
     'app/*.html',
     'app/scripts/**/*.js',
+    'app/data/**/*',
     'app/images/**/*',
     '.tmp/fonts/**/*'
   ]).on('change', reload);
 
   gulp.watch('app/styles/**/*.scss', ['styles']);
   gulp.watch('app/fonts/**/*', ['fonts']);
+  gulp.watch('app/data/**/*', ['data']);
   gulp.watch('bower.json', ['wiredep', 'fonts']);
 });
 
