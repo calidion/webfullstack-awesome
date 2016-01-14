@@ -19,6 +19,10 @@ module.exports = {
         url: 'http://www.opera.com/',
         favicon: 'images/opera.png',
         name: 'Opera'
+      }, {
+        url: 'https://www.microsoft.com/zh-cn/windows/microsoft-edge',
+        favicon: 'images/windows.ico',
+        name: 'Edge'
       }]
     }, {
       name: 'HTML技术',
