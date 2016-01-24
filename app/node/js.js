@@ -14,6 +14,11 @@ module.exports = {
         favicon: 'images/spidermonkey.png',
         name: 'SpiderMonkey',
         title: 'FireFox的js引擎'
+      }, {
+        url: 'https://github.com/Microsoft/ChakraCore',
+        favicon: 'images/windows.ico',
+        name: 'ChakraCore',
+        title: '微软的浏览引擎Chakra'
       }]
     },
     {

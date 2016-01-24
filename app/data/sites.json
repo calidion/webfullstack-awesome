@@ -196,6 +196,11 @@
               "url": "http://www.opera.com/",
               "favicon": "images/opera.png",
               "name": "Opera"
+            },
+            {
+              "url": "https://www.microsoft.com/zh-cn/windows/microsoft-edge",
+              "favicon": "images/windows.ico",
+              "name": "Edge"
             }
           ]
         },
@@ -288,6 +293,12 @@
                   "favicon": "images/spidermonkey.png",
                   "name": "SpiderMonkey",
                   "title": "FireFox的js引擎"
+                },
+                {
+                  "url": "https://github.com/Microsoft/ChakraCore",
+                  "favicon": "images/windows.ico",
+                  "name": "ChakraCore",
+                  "title": "微软的浏览引擎Chakra"
                 }
               ]
             },
