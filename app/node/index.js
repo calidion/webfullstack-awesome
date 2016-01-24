@@ -1,5 +1,5 @@
 module.exports = {
-  name: '',
+  name: 'Web全栈网址大全',
   order: 1,
   title: 'Web全栈网址大全',
   items: [
@@ -7,8 +7,7 @@ module.exports = {
     require('./coding'),
     require('./versioning'),
     require('./frontend'),
-    require('./backend'),
-    {
+    require('./backend'),    {
       name: '短信平台',
       items: [{
         url: 'https://www.twilio.com/',

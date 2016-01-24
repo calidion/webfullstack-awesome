@@ -9,6 +9,13 @@ window.onload = function() {
   var itemSource = $('#item').html();
   var itemTemplate = window.Handlebars.compile(itemSource);
   $('.links').html('');
+  var iframe = $('<iframe frameborder="0" width=100% name=nav id=nav src="https://www.baidu.com"/>');
+  iframe.on('load', function() {
+    console.log('on iframe load');
+    document.getElementById('nav').height = $('.root').height();
+  });
+
+  $('.content').html(iframe);
 
   function sort(a, b) {
     var left = a.order || 10000;
@@ -72,4 +79,34 @@ window.onload = function() {
     }
   });
 
+  var url;
+  url = 'https://www.google.com.hk/?q=';
+
+  window.select = function(node) {
+    console.log(node);
+    switch (node) {
+      case 'google':
+        url = 'https://www.google.com.hk/?q=';
+        $('#searches').html('Google <span class="caret"></span>');
+        iframe.attr('src', 'https://www.google.com');
+        break;
+      case 'baidu':
+        url = 'https://www.baidu.com/s?wd=';
+        $('#searches').html('Baidu <span class="caret"></span>');
+        iframe.attr('src', 'https://www.baidu.com');
+        break;
+      case 'bing':
+        url = 'https://global.bing.com/search?q=';
+        $('#searches').html('Bing <span class="caret"></span>');
+        iframe.attr('src', 'https://www.bing.com');
+        break;
+    }
+    $('.btn-query').attr('href', url + $('#q').val());
+
+    console.log(url);
+  };
+
+  $('#q').keyup(function() {
+    $('.btn-query').attr('href', url + $('#q').val());
+  });
 };

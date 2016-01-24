@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "Web全栈网址大全",
   "order": 1,
   "title": "Web全栈网址大全",
   "items": [
@@ -435,6 +435,7 @@
                 },
                 {
                   "url": "http://restify.com/",
+                  "favicon": "https://github.com/favicon.ico",
                   "order": 7,
                   "name": "restify JS"
                 },

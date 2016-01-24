@@ -55,6 +55,29 @@ body {
   margin-right: 80px;
   line-height: 2rem;
 }
+.search-engine {
+  padding: 10px 10px 30px;
+}
+.right-body{
+  position: relative;
+  height: 100%;
+  min-height: 600px;
+  .content {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    iframe, div {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+    }
+  }
+}
+
 .links {
   ul {
     vertical-align: top;
@@ -83,15 +106,18 @@ body {
       padding-top: 5px;
     }
     li {
-      display: inline-block;
+      // display: inline-block;
       vertical-align: top;
       padding-left: 10px;
-      a.btn-default:hover {
+      a.item:hover {
         transform: scale(1.2, 1.2);
+        text-decoration: none;
       }
-      a.btn-default {
+      a.item {
+
         font-size: 1.4rem;
         margin-top: 5px;
+        padding: 5px;
         // background-color: beige;
         // text-align: center;
         // display: inline-block;
@@ -140,6 +166,20 @@ body {
   }
   ul.root {
     border:0;
+    > li {
+      display: block;
+      ul {
+        display: none;
+      }
+      > ul {
+        display: block;
+      }
+    }
+    li:hover {
+      > ul {
+        display: block;
+      }
+    }
   }
 }
 /* Responsive: Portrait tablets and up */

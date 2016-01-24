@@ -50,13 +50,38 @@
       </p>
       <h3 class="text-muted">Web全栈开发网址大全</h3>
     </div>
-    <div class="row links">
-      <div class="col-md-12 center">
+    <div class="row">
+      <div class="col-md-2 links">
         <div class="progress">
           <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
           </div>
         </div>
         <p class="alert alert-info">正在加载中...如果长时间没有关闭此进度条，可能是你的浏览器不支持当前的网页</p>
+      </div>
+      <div class="col-md-10 right-body">
+        <form class="form-inline text-center search-engine">
+          <div class="form-group">
+            <div class="dropdown">
+              <button class="btn btn-default dropdown-toggle title-clear" type="button" id="searches" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Google
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="searches">
+                <li onclick="select('google')"><a ng-href="https://www.google.com.hk/?q="><i class="fa fa-google"></i> Google</a></li>
+                <li onclick="select('bing')"><a ng-href="https://global.bing.com/search?q="><i class="fa fa-windows"></i> Bing</a></li>
+                <li onclick="select('baidu')"><a ng-href="https://www.baidu.com/s?wd="><i class="fa fa-paw"></i> Baidu</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="sr-only" for="q"></label>
+            <input type="text" class="form-control" id="q" placeholder="搜索词">
+          </div>
+          <a target="_blank" class="btn btn-default btn-query" href="https://www.google.com.hk/?q=">搜索</a>
+        </form>
+
+        <div class="content">
+        </div>
       </div>
     </div>
 
@@ -80,34 +105,35 @@
   <!-- endbuild -->
 
   <!-- build:js scripts/main.js -->
-  <!--<script src="scripts/sites.js"></script>-->
   <script src="scripts/main.js"></script>
   <!-- endbuild -->
   <script id="item" type="text/x-handlebars-template">
     <li>
-      <a target="_blank" title="{{title}}" href="{{url}}" class="btn btn-default">
-        <img ng-src="{{favicon}}" src="images/loading.gif"/>&nbsp;{{name}}</a>
+      <!-- <a target="_blank" title="{{title}}" href="{{url}}" class="btn btn-default">
+        <img ng-src="{{favicon}}" src="images/loading.gif"/>&nbsp;{{name}}</a>   -->
+      <a target="nav" title="{{title}}" href="{{url}}" class="item">
+        <img ng-src="{{favicon}}" src="images/loading.gif" />&nbsp;{{name}}</a>
     </li>
   </script>
 
   <script id="section" type="text/x-handlebars-template">
-      <li class="title">
-        <h3>{{name}}</h3>
-        <ul>
-          {{{sub}}}
-        </ul>
-      </li>
-      <!-- <p class="lists"> -->
-        <!-- {{sub}} -->
-        <!-- {{#each items}}
-        <a target="_blank" title="{{title}}" href="{{url}}" class="btn btn-default">
-          <img ng-src="{{favicon}}" />&nbsp;{{name}}</a>
-        {{/each}}
-        <a target="_blank" title="没有我知道的站点" href="https://github.com/3gcnbeta/www/issues/2" class="btn btn-default add hidden-xs">
-          <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-        </a> -->
-      <!-- </p> -->
+    <li class="title">
+      <h3>{{name}}</h3>
+      <ul>
+        {{{sub}}}
+      </ul>
+    </li>
   </script>
+  <!-- <p class="lists"> -->
+  <!-- {{sub}} -->
+  <!-- {{#each items}}
+    <a target="_blank" title="{{title}}" href="{{url}}" class="btn btn-default">
+      <img ng-src="{{favicon}}" />&nbsp;{{name}}</a>
+    {{/each}}
+    <a target="_blank" title="没有我知道的站点" href="https://github.com/3gcnbeta/www/issues/2" class="btn btn-default add hidden-xs">
+      <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+    </a> -->
+  <!-- </p> -->
 </body>
 <script>
   var _hmt = _hmt || [];

@@ -17,6 +17,7 @@ module.exports = {
             name: 'strongloop loopback'
           }, {
             url: 'http://restify.com/',
+            favicon: 'https://github.com/favicon.ico',
             order: 7,
             name: 'restify JS'
           }, {
