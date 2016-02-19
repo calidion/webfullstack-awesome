@@ -3,6 +3,9 @@ $icon-font-path: '../fonts/';
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 @import "bower_components/font-awesome/scss/font-awesome.scss";
 // endbower
+html {
+  font-size: 1px;
+}
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -60,8 +63,6 @@ body {
 }
 .right-body{
   position: relative;
-  height: 100%;
-  min-height: 600px;
   .content {
     position: absolute;
     top: 60px;
@@ -90,14 +91,15 @@ body {
       border-left: 3px solid #838;
       transition: border-left 1s;
       transition-timing-function: ease-out;
-      padding-left: 10px;
+      padding: 0px 10px 3px;
       margin: 0 5px 5px 5px;
       color: #888;
       border-bottom: 1px solid rgb(55, 126, 255);
       margin-bottom: 5px;
       text-shadow: 1px 1px 1px #ccc;
-      font-size: 1.6rem;
+      font-size: 12rem;
       margin-left: 5px;
+      cursor: auto;
       span {
         color: #009688;
       }
@@ -106,7 +108,7 @@ body {
       padding-top: 5px;
     }
     li {
-      // display: inline-block;
+      display: inline-block;
       vertical-align: top;
       padding-left: 10px;
       a.item:hover {
@@ -115,7 +117,7 @@ body {
       }
       a.item {
 
-        font-size: 1.4rem;
+        font-size: 18rem;
         margin-top: 5px;
         padding: 5px;
         // background-color: beige;
@@ -130,8 +132,8 @@ body {
         // margin-top: 15px;
         img,
         span {
-          width: 16px;
-          height: 16px;
+          width: 20px;
+          height: 20px;
           border-radius: 16px;
           margin-top: -5px;
         }
@@ -166,18 +168,19 @@ body {
   }
   ul.root {
     border:0;
+    display: block;
     > li {
       display: block;
       ul {
-        display: none;
+        display: inline-block;;
       }
       > ul {
-        display: block;
+        display: inline-block;
       }
     }
     li:hover {
       > ul {
-        display: block;
+        display: inline-block;
       }
     }
   }
