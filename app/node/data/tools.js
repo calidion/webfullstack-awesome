@@ -7,15 +7,15 @@ module.exports = {
     items: [{
       url: 'http://www.google.com',
       favicon: 'images/google.png',
-      name: '谷歌'
+      name: 'Google'
     }, {
       url: 'http://www.bing.com',
       favicon: 'images/bing.svg',
-      name: '必应'
+      name: 'Bing'
     }, {
       url: 'http://www.baidu.com',
       favicon: 'images/baidu.png',
-      name: '百度'
+      name: 'Baidu'
     }]
   }, {
     name: '翻墙工具/免费VPN',
@@ -31,7 +31,8 @@ module.exports = {
       title: '匿名安全访问'
     }, {
       url: 'https://github.com/getlantern/lantern',
-      favicon: 'images/lantern.svg',
+      // favicon: 'images/lantern.svg',
+      favicon: 'images/lantern.png',
       name: 'Lantern'
     }, {
       url: 'https://www.softether.org/',

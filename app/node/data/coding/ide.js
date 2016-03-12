@@ -22,7 +22,11 @@ module.exports = {
     name: 'IntelliJ IDEA'
   }, {
     url: 'http://brackets.io/',
-    favicon: 'http://brackets.io/favicon.ico',
+    favicon: '/images/brackets.svg',
     name: 'Adobe Brackets'
+  }, {
+    url: 'https://eclipse.org/',
+    favicon: '/images/eclipse.png',
+    name: 'Eclipse'
   }]
 };

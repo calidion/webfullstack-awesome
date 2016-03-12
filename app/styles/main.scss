@@ -83,7 +83,8 @@ body {
   ul {
     vertical-align: top;
     list-style: none;
-    padding-left: 2px;
+    padding: 0px;
+    text-align: center;
     h3:hover {
       border-left: 20px solid #838;
       display: block;
@@ -112,7 +113,8 @@ body {
     li {
       display: inline-block;
       vertical-align: top;
-      padding-left: 10px;
+      padding-left: 5px;
+      padding-right: 5px;
       a.item:hover {
         transform: scale(1.2, 1.2);
         text-decoration: none;

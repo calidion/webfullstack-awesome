@@ -14,17 +14,17 @@
             {
               "url": "http://www.google.com",
               "favicon": "images/google.png",
-              "name": "谷歌"
+              "name": "Google"
             },
             {
               "url": "http://www.bing.com",
               "favicon": "images/bing.svg",
-              "name": "必应"
+              "name": "Bing"
             },
             {
               "url": "http://www.baidu.com",
               "favicon": "images/baidu.png",
-              "name": "百度"
+              "name": "Baidu"
             }
           ]
         },
@@ -45,7 +45,7 @@
             },
             {
               "url": "https://github.com/getlantern/lantern",
-              "favicon": "images/lantern.svg",
+              "favicon": "images/lantern.png",
               "name": "Lantern"
             },
             {
@@ -56,6 +56,57 @@
               "url": "https://shadowsocks.org",
               "favicon": "images/shadowsocks.png",
               "name": "shadowsocks"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "代码保存与维护",
+      "order": 1,
+      "items": [
+        {
+          "name": "代码托管",
+          "items": [
+            {
+              "url": "https://github.com",
+              "favicon": "/images/github.png",
+              "name": "GitHub"
+            },
+            {
+              "url": "http://www.bitbucket.org",
+              "favicon": "/images/bitbucket.ico",
+              "name": "BitBucket"
+            },
+            {
+              "url": "http://gitlab.com",
+              "favicon": "/images/gitlab.png",
+              "name": "GitLab"
+            },
+            {
+              "url": "https://coding.net",
+              "favicon": "/images/coding.png",
+              "name": "Coding"
+            }
+          ]
+        },
+        {
+          "name": "代码版本管理",
+          "items": [
+            {
+              "url": "http://git-scm.com/",
+              "favicon": "/images/git.png",
+              "name": "git"
+            },
+            {
+              "url": "https://www.mercurial-scm.org/",
+              "favicon": "/images/mercurial.jpg",
+              "name": "Mercurial(hg)"
+            },
+            {
+              "url": "http://subversion.apache.org/",
+              "favicon": "/images/svn.png",
+              "name": "subversion(svn)"
             }
           ]
         }
@@ -116,53 +167,13 @@
             },
             {
               "url": "http://brackets.io/",
-              "favicon": "http://brackets.io/favicon.ico",
+              "favicon": "/images/brackets.svg",
               "name": "Adobe Brackets"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "代码保存与维护",
-      "items": [
-        {
-          "name": "代码托管",
-          "items": [
-            {
-              "url": "https://github.com",
-              "name": "GitHub"
             },
             {
-              "url": "http://www.bitbucket.org",
-              "name": "BitBucket"
-            },
-            {
-              "url": "http://gitlab.com",
-              "favicon": "/images/gitlab.ico",
-              "name": "GitLab"
-            },
-            {
-              "url": "https://coding.net",
-              "name": "Coding"
-            }
-          ]
-        },
-        {
-          "name": "代码版本管理",
-          "items": [
-            {
-              "url": "http://git-scm.com/",
-              "name": "git"
-            },
-            {
-              "url": "https://www.mercurial-scm.org/",
-              "favicon": "https://www.mercurial-scm.org/images/favicon.ico",
-              "name": "Mercurial(hg)"
-            },
-            {
-              "url": "http://subversion.apache.org/",
-              "name": "subversion(svn)"
+              "url": "https://eclipse.org/",
+              "favicon": "/images/eclipse.png",
+              "name": "Eclipse"
             }
           ]
         }
@@ -176,7 +187,7 @@
           "items": [
             {
               "url": "https://www.google.com/chrome/",
-              "favicon": "/images/chrome.png",
+              "favicon": "/images/chrome.ico",
               "name": "Chrome"
             },
             {
@@ -186,7 +197,7 @@
             },
             {
               "url": "http://www.apple.com/safari/",
-              "favicon": "http://www.apple.com/favicon.ico",
+              "favicon": "images/safari.png",
               "name": "safari"
             },
             {
@@ -196,7 +207,7 @@
             },
             {
               "url": "https://www.microsoft.com/zh-cn/windows/microsoft-edge",
-              "favicon": "images/windows.ico",
+              "favicon": "images/edge.png",
               "name": "Edge"
             }
           ]

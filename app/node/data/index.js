@@ -4,8 +4,8 @@ module.exports = {
   title: 'Web全栈网址大全',
   items: [
     require('./tools'),
-    require('./coding'),
     require('./versioning'),
+    require('./coding'),
     require('./frontend'),
     require('./backend'),
     require('./sms'),

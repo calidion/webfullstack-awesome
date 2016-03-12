@@ -71,20 +71,6 @@ gulp.task('statics', () => {
 gulp.task('gen', () => {
   var spawn = require('child_process').spawn;
   spawn('node', ['app/node/run']);
-  // console.log('regenerating sites data');
-  // var path = require('path');
-  // var fs = require('fs');
-  // var run = require('./app/node/run');
-  // var file = path.resolve(__dirname, './app/data/sites.json');
-  // console.log(file);
-  // run(file);
-  // console.log('end of runt')
-  // return gulp.src(['app/data/**'])
-  //   .pipe(gulp.dest('.tmp/data'))
-  //   .pipe(gulp.dest('dist/data'))
-  //   .pipe(reload({
-  //     stream: true
-  //   }));
 });
 
 gulp.task('data', () => {
@@ -161,7 +147,7 @@ gulp.task('serve', ['styles', 'fonts', 'gen'], () => {
 
   gulp.watch('app/styles/**/*.scss', ['styles']);
   gulp.watch('app/fonts/**/*', ['fonts']);
-  gulp.watch('app/node/data/**/*.js', ['gen']);
+  gulp.watch('app/node/data/**/*.js', ['gen', 'data']);
   gulp.watch('app/data/**/*', ['data']);
   gulp.watch('bower.json', ['wiredep', 'fonts']);
 });

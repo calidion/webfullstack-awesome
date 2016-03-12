@@ -5,7 +5,7 @@ module.exports = {
       name: '浏览器',
       items: [{
         url: 'https://www.google.com/chrome/',
-        favicon: '/images/chrome.png',
+        favicon: '/images/chrome.ico',
         name: 'Chrome'
       }, {
         url: 'https://www.mozilla.org/en-US/firefox/products/',
@@ -13,7 +13,7 @@ module.exports = {
         name: 'firefox'
       }, {
         url: 'http://www.apple.com/safari/',
-        favicon: 'http://www.apple.com/favicon.ico',
+        favicon: 'images/safari.png',
         name: 'safari'
       }, {
         url: 'http://www.opera.com/',
@@ -21,7 +21,7 @@ module.exports = {
         name: 'Opera'
       }, {
         url: 'https://www.microsoft.com/zh-cn/windows/microsoft-edge',
-        favicon: 'images/windows.ico',
+        favicon: 'images/edge.png',
         name: 'Edge'
       }]
     }, {
