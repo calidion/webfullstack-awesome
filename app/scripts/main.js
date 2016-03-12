@@ -11,7 +11,6 @@ window.onload = function() {
   $('.links').html('');
   var iframe = $('<iframe frameborder="0" width=100% name=nav id=nav src="https://www.baidu.com"/>');
   iframe.on('load', function() {
-    console.log('on iframe load');
     document.getElementById('nav').height = $('.root').height();
   });
 
@@ -30,16 +29,12 @@ window.onload = function() {
   }
 
   function getItem(item) {
-    console.log(item);
-
     var sub = [];
     if (!item) {
       return '';
     }
     if (item.items && item.items.length) {
-      console.log(item.items);
       var items = item.items.sort(sort);
-      console.log(items);
       for (var j = 0; j < items.length; j++) {
         if (items[j]) {
           sub.push(getItem(items[j]));
@@ -58,7 +53,6 @@ window.onload = function() {
     }
   }
 
-
   $.ajax({
     url: 'data/sites.json',
     method: 'get',
@@ -76,6 +70,12 @@ window.onload = function() {
       $('img').on('error', function() {
         this.src = 'https://assets-cdn.github.com/favicon.ico';
       });
+      $('.title > h3').on('mouseover', function() {
+        this.style.display = 'block';
+      });
+      $('.title > h3').on('mouseout', function() {
+        this.style.display = 'none';
+      });
     }
   });
 
@@ -83,7 +83,6 @@ window.onload = function() {
   url = 'https://www.google.com.hk/?q=';
 
   window.select = function(node) {
-    console.log(node);
     switch (node) {
       case 'google':
         url = 'https://www.google.com.hk/?q=';
@@ -102,8 +101,6 @@ window.onload = function() {
         break;
     }
     $('.btn-query').attr('href', url + $('#q').val());
-
-    console.log(url);
   };
 
   $('#q').keyup(function() {

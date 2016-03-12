@@ -86,9 +86,11 @@ body {
     padding-left: 2px;
     h3:hover {
       border-left: 20px solid #838;
+      display: block;
     }
     h3 {
-      border-left: 3px solid #838;
+      display: none;
+      border-left: 0px solid #838;
       transition: border-left 1s;
       transition-timing-function: ease-out;
       padding: 0px 10px 3px;
@@ -116,7 +118,11 @@ body {
         text-decoration: none;
       }
       a.item {
-
+        display: inline-block;
+        vertical-align: top;
+        width: 100px;
+        text-align: center;
+        font-size: 20px;
         font-size: 18rem;
         margin-top: 5px;
         padding: 5px;
@@ -132,15 +138,24 @@ body {
         // margin-top: 15px;
         img,
         span {
-          width: 20px;
+          display: block;
+          margin: 0 auto;
+          // width: 20px;
+          text-align: center;
           height: 20px;
           border-radius: 16px;
           margin-top: -5px;
         }
+        img {
+          width: 100px;
+          height: 100px;
+        }
         span {
+          margin-top: 5px;
+
           // font-size: 30px;
           // line-height: 40px;
-          color: #43D258;
+          // color: #43D258;
           // text-align: center;
           // display: inline-block;
         }
