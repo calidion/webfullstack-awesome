@@ -34,37 +34,41 @@ module.exports = {
           name: 'CSS可编程化',
           items: [{
             url: 'http://sass-lang.com/',
+            favicon: '/images/sass.svg',
             name: 'Sass'
           }, {
             url: 'http://lesscss.org/',
-            favicon: 'http://lesscss.org/public/ico/favicon.ico',
+            favicon: '/images/less.png',
             name: 'Less'
           }, {
             url: 'http://stylus-lang.com/',
-            favicon: 'http://stylus-lang.com/favicon.ico',
+            favicon: '/images/stylus.svg',
             name: 'Stylus'
           }]
         }, {
           name: '常用UI框架',
           items: [{
             url: 'http://getbootstrap.com',
+            favicon: '/images/bootstrap.png',
             name: 'Bootstrap'
           }, {
             url: 'http://metroui.org.ua/',
+            favicon: '/images/wn8.png',
             name: 'Metro UI'
           }, {
             url: 'http://material.angularjs.org',
-            favicon: 'images/angular2.ico',
+            favicon: 'images/angular.svg',
             name: 'Material Design'
           }, {
             url: 'http://purecss.io/',
             name: 'Pure CSS'
           }, {
             url: 'http://ionicframework.com',
-            favicon: 'http://ionicframework.com/img/ionic-logo-blog.png',
+            favicon: 'images/ionic.png',
             name: 'Ionic'
           }, {
             url: 'http://jquerymobile.com/',
+            favicon: 'images/jquerymobile.png',
             name: 'JQuery Mobile'
           }, {
             url: 'http://app-framework-software.intel.com/',
@@ -72,8 +76,8 @@ module.exports = {
             name: 'APP Framework'
           }, {
             url: 'http://www.polymer-project.org/',
-            name: 'PolymerJS',
-            favicon: 'http://docs.polymerchina.org/images/logos/p-logo-32.png'
+            favicon: 'images/polymer.png',
+            name: 'Polymer',
           }]
         }
       ]

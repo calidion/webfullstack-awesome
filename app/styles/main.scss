@@ -61,29 +61,29 @@ body {
 .search-engine {
   padding: 10px 10px 30px;
 }
-.right-body{
+.right-body {
   position: relative;
   .content {
     position: absolute;
     top: 60px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    iframe, div {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    iframe,
+    div {
       position: absolute;
-      top: 0px;
-      left: 0px;
-      right: 0px;
-      bottom: 0px;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
     }
   }
 }
-
 .links {
   ul {
     vertical-align: top;
     list-style: none;
-    padding: 0px;
+    padding: 0;
     text-align: center;
     h3:hover {
       border-left: 20px solid #838;
@@ -91,11 +91,11 @@ body {
     }
     h3 {
       display: none;
-      border-left: 0px solid #838;
+      border-left: 0 solid #838;
       transition: border-left 1s;
       transition-timing-function: ease-out;
-      padding: 0px 10px 3px;
-      margin: 0 5px 5px 5px;
+      padding: 0 10px 3px;
+      margin: 0 5px 5px;
       color: #888;
       border-bottom: 1px solid rgb(55, 126, 255);
       margin-bottom: 5px;
@@ -122,8 +122,7 @@ body {
       a.item {
         display: inline-block;
         vertical-align: top;
-        width: 100px;
-        text-align: center;
+        width: 120px;
         font-size: 20px;
         font-size: 18rem;
         margin-top: 5px;
@@ -142,7 +141,6 @@ body {
         span {
           display: block;
           margin: 0 auto;
-          // width: 20px;
           text-align: center;
           height: 20px;
           border-radius: 16px;
@@ -153,13 +151,11 @@ body {
           height: 100px;
         }
         span {
+          display: table-cell;
           margin-top: 5px;
-
-          // font-size: 30px;
-          // line-height: 40px;
-          // color: #43D258;
-          // text-align: center;
-          // display: inline-block;
+          width: 120px;
+          text-overflow: clip;
+          height: 20px;
         }
         transition: 1s ease-out;
         i.fa {
@@ -184,12 +180,12 @@ body {
     }
   }
   ul.root {
-    border:0;
+    border: 0;
     display: block;
     > li {
       display: block;
       ul {
-        display: inline-block;;
+        display: inline-block;
       }
       > ul {
         display: inline-block;
@@ -230,7 +226,6 @@ body {
   .header {
     border-bottom: 5px solid #e5e5e5;
     margin-bottom: 10px;
-
     /* Make the masthead heading the same height as the navigation */
     h3 {
       text-align: center;

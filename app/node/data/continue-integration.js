@@ -13,7 +13,7 @@ module.exports = {
     name: 'saucelabs'
   }, {
     url: 'https://www.browserstack.com/',
-    favicon: 'images/browserstack.ico',
+    favicon: 'images/browserstack.svg',
     name: 'browserstack'
   }]
 };

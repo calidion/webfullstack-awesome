@@ -6,7 +6,7 @@ module.exports = {
       order: 2,
       items: [{
         url: 'https://code.google.com/p/v8/',
-        favicon: 'images/v8.png',
+        favicon: 'images/V8.png',
         name: 'V8',
         title: 'Chrome的js引擎'
       }, {
@@ -16,7 +16,7 @@ module.exports = {
         title: 'FireFox的js引擎'
       }, {
         url: 'https://github.com/Microsoft/ChakraCore',
-        favicon: 'images/windows.ico',
+        favicon: 'images/wn8.png',
         name: 'ChakraCore',
         title: '微软的浏览引擎Chakra'
       }]
@@ -29,12 +29,12 @@ module.exports = {
           name: '前端模板框架',
           items: [{
             url: 'http://handlebarsjs.com/',
-            favicon: 'http://handlebarsjs.com/images/favicon.png',
+            favicon: '/images/handlebars.png',
             name: 'handlebars'
           }, {
             url: 'http://facebook.github.io/react/',
-            favicon: 'http://facebook.github.io/react/img/logo.svg',
-            name: 'ReactJS'
+            favicon: '/images/reactjs.svg',
+            name: 'React JS'
           }]
         },
         {
@@ -42,6 +42,7 @@ module.exports = {
           items: [
             {
               url: 'http://jquery.com/',
+              favicon: '/images/jquery.png',
               name: 'JQuery'
             }
           ]
@@ -55,7 +56,8 @@ module.exports = {
             },
             {
               url: 'http://underscorejs.org/',
-              name: 'UnderScore',
+              favicon: '/images/underscore.png',
+              name: 'UnderScore JS',
             }
           ]
         }, {
@@ -63,35 +65,37 @@ module.exports = {
           items: [
             {
               url: 'http://angularjs.org',
-              favicon: 'images/angular1.ico',
+              favicon: 'images/angular.png',
               name: 'Angular V1.X'
             }, {
               url: 'http://angular.io/',
-              favicon: 'images/angular2.ico',
+              favicon: 'images/angular.svg',
               name: 'Angular V2.X'
             }, {
               url: 'http://emberjs.com/',
-              favicon: 'images/emberjs.jpg',
+              favicon: 'images/ember.png',
               name: 'EmberJS'
             },
             {
               url: 'http://backbonejs.org/',
+              favicon: '/images/backbone.png',
               name: 'Backbone'
             }, {
               url: 'http://vuejs.org/',
-              favicon: 'http://vuejs.org/images/logo.png',
-              name: 'Vuejs'
+              favicon: '/images/vue.png',
+              name: 'Vue.js'
             }, {
               url: 'http://avalonjs.github.io/',
-              name: 'AvalonJS',
-              favicon: 'http://www.avalon.org.cn/static/img/avalon.png'
+              name: 'Avalon.JS',
+              favicon: '/images/avalon.png'
             }, {
-              url: 'http://novajs.com/',
-              name: 'NovaJS',
-              favicon: 'http://novajs.com/static/img/logo.png'
-            }, {
+            //   url: 'http://novajs.com/',
+            //   name: 'NovaJS',
+            //   favicon: 'http://novajs.com/static/img/logo.png'
+            // }, {
               url: 'http://knockoutjs.com/',
-              favicon: 'http://knockoutjs.com/img/favicon.ico',
+              favicon: '/images/knockout.jpg',
+              // favicon: 'http://knockoutjs.com/img/favicon.ico',
               name: 'KnockoutJS'
             }
           ]

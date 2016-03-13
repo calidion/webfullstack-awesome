@@ -226,16 +226,17 @@
               "items": [
                 {
                   "url": "http://sass-lang.com/",
+                  "favicon": "/images/sass.svg",
                   "name": "Sass"
                 },
                 {
                   "url": "http://lesscss.org/",
-                  "favicon": "http://lesscss.org/public/ico/favicon.ico",
+                  "favicon": "/images/less.png",
                   "name": "Less"
                 },
                 {
                   "url": "http://stylus-lang.com/",
-                  "favicon": "http://stylus-lang.com/favicon.ico",
+                  "favicon": "/images/stylus.svg",
                   "name": "Stylus"
                 }
               ]
@@ -245,15 +246,17 @@
               "items": [
                 {
                   "url": "http://getbootstrap.com",
+                  "favicon": "/images/bootstrap.png",
                   "name": "Bootstrap"
                 },
                 {
                   "url": "http://metroui.org.ua/",
+                  "favicon": "/images/wn8.png",
                   "name": "Metro UI"
                 },
                 {
                   "url": "http://material.angularjs.org",
-                  "favicon": "images/angular2.ico",
+                  "favicon": "images/angular.svg",
                   "name": "Material Design"
                 },
                 {
@@ -262,11 +265,12 @@
                 },
                 {
                   "url": "http://ionicframework.com",
-                  "favicon": "http://ionicframework.com/img/ionic-logo-blog.png",
+                  "favicon": "images/ionic.png",
                   "name": "Ionic"
                 },
                 {
                   "url": "http://jquerymobile.com/",
+                  "favicon": "images/jquerymobile.png",
                   "name": "JQuery Mobile"
                 },
                 {
@@ -276,8 +280,8 @@
                 },
                 {
                   "url": "http://www.polymer-project.org/",
-                  "name": "PolymerJS",
-                  "favicon": "http://docs.polymerchina.org/images/logos/p-logo-32.png"
+                  "favicon": "images/polymer.png",
+                  "name": "Polymer"
                 }
               ]
             }
@@ -292,7 +296,7 @@
               "items": [
                 {
                   "url": "https://code.google.com/p/v8/",
-                  "favicon": "images/v8.png",
+                  "favicon": "images/V8.png",
                   "name": "V8",
                   "title": "Chrome的js引擎"
                 },
@@ -304,7 +308,7 @@
                 },
                 {
                   "url": "https://github.com/Microsoft/ChakraCore",
-                  "favicon": "images/windows.ico",
+                  "favicon": "images/wn8.png",
                   "name": "ChakraCore",
                   "title": "微软的浏览引擎Chakra"
                 }
@@ -319,13 +323,13 @@
                   "items": [
                     {
                       "url": "http://handlebarsjs.com/",
-                      "favicon": "http://handlebarsjs.com/images/favicon.png",
+                      "favicon": "/images/handlebars.png",
                       "name": "handlebars"
                     },
                     {
                       "url": "http://facebook.github.io/react/",
-                      "favicon": "http://facebook.github.io/react/img/logo.svg",
-                      "name": "ReactJS"
+                      "favicon": "/images/reactjs.svg",
+                      "name": "React JS"
                     }
                   ]
                 },
@@ -334,6 +338,7 @@
                   "items": [
                     {
                       "url": "http://jquery.com/",
+                      "favicon": "/images/jquery.png",
                       "name": "JQuery"
                     }
                   ]
@@ -348,7 +353,8 @@
                     },
                     {
                       "url": "http://underscorejs.org/",
-                      "name": "UnderScore"
+                      "favicon": "/images/underscore.png",
+                      "name": "UnderScore JS"
                     }
                   ]
                 },
@@ -357,41 +363,37 @@
                   "items": [
                     {
                       "url": "http://angularjs.org",
-                      "favicon": "images/angular1.ico",
+                      "favicon": "images/angular.png",
                       "name": "Angular V1.X"
                     },
                     {
                       "url": "http://angular.io/",
-                      "favicon": "images/angular2.ico",
+                      "favicon": "images/angular.svg",
                       "name": "Angular V2.X"
                     },
                     {
                       "url": "http://emberjs.com/",
-                      "favicon": "images/emberjs.jpg",
+                      "favicon": "images/ember.png",
                       "name": "EmberJS"
                     },
                     {
                       "url": "http://backbonejs.org/",
+                      "favicon": "/images/backbone.png",
                       "name": "Backbone"
                     },
                     {
                       "url": "http://vuejs.org/",
-                      "favicon": "http://vuejs.org/images/logo.png",
-                      "name": "Vuejs"
+                      "favicon": "/images/vue.png",
+                      "name": "Vue.js"
                     },
                     {
                       "url": "http://avalonjs.github.io/",
-                      "name": "AvalonJS",
-                      "favicon": "http://www.avalon.org.cn/static/img/avalon.png"
-                    },
-                    {
-                      "url": "http://novajs.com/",
-                      "name": "NovaJS",
-                      "favicon": "http://novajs.com/static/img/logo.png"
+                      "name": "Avalon.JS",
+                      "favicon": "/images/avalon.png"
                     },
                     {
                       "url": "http://knockoutjs.com/",
-                      "favicon": "http://knockoutjs.com/img/favicon.ico",
+                      "favicon": "/images/knockout.jpg",
                       "name": "KnockoutJS"
                     }
                   ]
@@ -684,7 +686,7 @@
         },
         {
           "url": "https://www.browserstack.com/",
-          "favicon": "images/browserstack.ico",
+          "favicon": "images/browserstack.svg",
           "name": "browserstack"
         }
       ]
