@@ -61,6 +61,7 @@ module.exports = {
             name: 'Material Design'
           }, {
             url: 'http://purecss.io/',
+            favicon: 'images/purecss.ico',
             name: 'Pure CSS'
           }, {
             url: 'http://ionicframework.com',
@@ -72,7 +73,7 @@ module.exports = {
             name: 'JQuery Mobile'
           }, {
             url: 'http://app-framework-software.intel.com/',
-            favicon: 'images/intel.jpg',
+            favicon: 'images/intel.png',
             name: 'APP Framework'
           }, {
             url: 'http://www.polymer-project.org/',
@@ -82,28 +83,31 @@ module.exports = {
         }
       ]
     }, require('./js'),
+    // {
+    //   name: '前端综合技术',
+    //   items: [
+    //     {
+    //       url: 'http://quirksmode.org/',
+    //       name: 'Quicks Mode'
+    //     }, {
+    //       url: 'http://css-tricks.com/',
+    //       name: 'css-tricks'
+    //     }
+    //   ]
+    // },
     {
-      name: '前端综合技术',
-      items: [
-        {
-          url: 'http://quirksmode.org/',
-          name: 'Quicks Mode'
-        }, {
-          url: 'http://css-tricks.com/',
-          name: 'css-tricks'
-        }
-      ]
-    },
-    {
-      name: '在线开发/设计网站',
+      name: '在线开发/调试/设计网站',
       items: [{
         url: 'http://jsfiddle.net/',
+        favicon: 'images/jsfiddle.png',
         name: 'JS Fiddle'
       }, {
         url: 'https://codepen.io/',
+        favicon: 'images/codepen.png',
         name: 'Code Pen'
       }, {
         url: 'http://plnkr.co/',
+        favicon: 'images/plunker.jpg',
         name: 'Plunker'
       }]
     }

@@ -50,6 +50,7 @@
             },
             {
               "url": "https://www.softether.org/",
+              "favicon": "images/softether.ico",
               "name": "SoftEther"
             },
             {
@@ -261,6 +262,7 @@
                 },
                 {
                   "url": "http://purecss.io/",
+                  "favicon": "images/purecss.ico",
                   "name": "Pure CSS"
                 },
                 {
@@ -275,7 +277,7 @@
                 },
                 {
                   "url": "http://app-framework-software.intel.com/",
-                  "favicon": "images/intel.jpg",
+                  "favicon": "images/intel.png",
                   "name": "APP Framework"
                 },
                 {
@@ -403,31 +405,21 @@
           ]
         },
         {
-          "name": "前端综合技术",
-          "items": [
-            {
-              "url": "http://quirksmode.org/",
-              "name": "Quicks Mode"
-            },
-            {
-              "url": "http://css-tricks.com/",
-              "name": "css-tricks"
-            }
-          ]
-        },
-        {
-          "name": "在线开发/设计网站",
+          "name": "在线开发/调试/设计网站",
           "items": [
             {
               "url": "http://jsfiddle.net/",
+              "favicon": "images/jsfiddle.png",
               "name": "JS Fiddle"
             },
             {
               "url": "https://codepen.io/",
+              "favicon": "images/codepen.png",
               "name": "Code Pen"
             },
             {
               "url": "http://plnkr.co/",
+              "favicon": "images/plunker.jpg",
               "name": "Plunker"
             }
           ]
@@ -446,47 +438,43 @@
                 {
                   "url": "http://expressjs.com/",
                   "order": 1,
-                  "favicon": "http://expressjs.com/images/strongloop-logo.png",
+                  "favicon": "images/expressjs.png",
                   "name": "Express JS"
                 },
                 {
-                  "url": "https://strongloop.com/",
+                  "url": "http://loopback.io/",
                   "order": 8,
-                  "name": "strongloop loopback"
-                },
-                {
-                  "url": "http://restify.com/",
-                  "favicon": "https://github.com/favicon.ico",
-                  "order": 7,
-                  "name": "restify JS"
+                  "favicon": "images/loopback.svg",
+                  "name": "loopback"
                 },
                 {
                   "url": "http://sailsjs.org/",
                   "order": 2,
+                  "favicon": "images/sails.png",
                   "name": "Sails JS"
                 },
                 {
                   "url": "http://www.meteor.com",
                   "order": 3,
-                  "favicon": "https://www.meteor.com/favicon.png",
+                  "favicon": "images/meteor.png",
                   "name": "Meteor"
                 },
                 {
                   "url": "http://koajs.com/",
                   "order": 4,
-                  "favicon": "favicon.ico",
+                  "favicon": "images/koa.png",
                   "name": "koajs"
                 },
                 {
                   "url": "http://socket.io/",
                   "order": 5,
-                  "favicon": "http://cdn.socket.io/website/imgs/logo.svg",
+                  "favicon": "images/socket.io.gif",
                   "name": "Socket.io"
                 },
                 {
                   "url": "http://hapijs.com",
                   "order": 6,
-                  "favicon": "http://hapijs.com/public/img/favicon.png",
+                  "favicon": "images/hapi.png",
                   "name": "Hapi"
                 }
               ]
@@ -496,22 +484,13 @@
               "items": [
                 {
                   "url": "http://nodejs.org",
+                  "favicon": "images/nodejs.png",
                   "name": "Node.js"
                 },
                 {
                   "url": "https://babeljs.io/",
-                  "favicon": "images/babel.ico",
+                  "favicon": "images/babel.png",
                   "name": "babeljs"
-                },
-                {
-                  "url": "https://github.com/google/traceur-compiler",
-                  "favicon": "images/google.ico",
-                  "name": "traceur"
-                },
-                {
-                  "url": "http://kangax.github.io/compat-table/es6/",
-                  "favicon": "http://kangax.github.io/compat-table/favicon.ico",
-                  "name": "Compatibility Table"
                 }
               ]
             },
@@ -520,22 +499,8 @@
               "items": [
                 {
                   "url": "http://jade-lang.com/",
-                  "favicon": "http://jade-lang.com/style/jade-logo-header.svg",
+                  "favicon": "images/jade.jpg",
                   "name": "jade"
-                },
-                {
-                  "url": "http://ectjs.com/",
-                  "favicon": "",
-                  "name": "ect"
-                },
-                {
-                  "url": "http://paularmstrong.github.io/swig",
-                  "favicon": "favicon.ico",
-                  "name": "swig"
-                },
-                {
-                  "name": "ejs",
-                  "url": "http://www.embeddedjs.com/"
                 }
               ]
             }
@@ -548,16 +513,8 @@
       "items": [
         {
           "url": "https://www.twilio.com/",
-          "favicon": "https://www.twilio.com/marketing/bundles/marketing/img/favicons/favicon.ico",
+          "favicon": "/images/twilio.ico",
           "name": "twilio"
-        },
-        {
-          "url": "http://www.yuntongxun.com/",
-          "name": "云通讯"
-        },
-        {
-          "url": "http://www.cl2009.com/",
-          "name": "创蓝"
         }
       ]
     },
@@ -566,21 +523,22 @@
       "items": [
         {
           "url": "http://aws.amazon.com/",
-          "favicon": "https://a0.awsstatic.com/main/images/site/favicon.ico",
+          "favicon": "/images/aws.png",
           "name": "Amazon"
         },
         {
           "url": "http://azure.microsoft.com/",
-          "favicon": "https://azure.microsoft.com/images/icon/favicon.ico",
+          "favicon": "/images/azure.ico",
           "name": "Azure"
         },
         {
           "url": "http://www.aliyun.com/",
-          "name": "阿里云"
+          "favicon": "/images/aliyun.jpg",
+          "name": "aliyun"
         },
         {
           "url": "https://www.openshift.com/",
-          "favicon": "https://assets.openshift.net/content/subdomain/favicon32x32.png",
+          "favicon": "/images/openshift.svg",
           "name": "openshift"
         },
         {
@@ -595,14 +553,14 @@
       "items": [
         {
           "url": "https://ngrok.com/",
-          "favicon": "http://www.github.com/favicon.ico",
+          "favicon": "images/ngrok.png",
           "name": "ngrok",
           "title": "用于将本地服务器转化成网络服务器的工具"
         },
         {
           "url": "http://blog.qqbrowser.cc/",
-          "favicon": "http://blog.qqbrowser.cc/assets/images/favicon.ico",
-          "name": "微信调试"
+          "favicon": "images/qqbrowser.png",
+          "name": "weixin debug"
         }
       ]
     },
@@ -611,22 +569,23 @@
       "items": [
         {
           "url": "http://www.mysql.com/",
-          "favicon": "http://www.mysql.com/common/themes/sakila/favicon.ico",
+          "favicon": "/images/mysql.svg",
           "name": "Mysql",
           "title": "用于将本地服务器转化成网络服务器的工具"
         },
         {
           "url": "http://www.postgresql.org/",
+          "favicon": "/images/postgresql.svg",
           "name": "PostgreSQL"
         },
         {
           "url": "https://www.mongodb.org/",
-          "favicon": "http://media.mongodb.org/favicon.ico",
+          "favicon": "/images/mongo.png",
           "name": "Mongodb"
         },
         {
           "url": "https://mariadb.com/",
-          "favicon": "https://mariadb.com/sites/default/files/MariaDB-Favicon-32x32.ico",
+          "favicon": "/images/mariadb.png",
           "name": "mariadb"
         },
         {
@@ -634,6 +593,11 @@
           "favicon": "/images/lovefield.png",
           "name": "lovefield",
           "title": "浏览器端的关系数据库"
+        },
+        {
+          "url": "https://www.sqlite.org/",
+          "favicon": "/images/sqlite.svg",
+          "name": "sqlite"
         }
       ]
     },
@@ -642,16 +606,17 @@
       "items": [
         {
           "url": "http://mochajs.org/",
+          "favicon": "/images/mocha.svg",
           "name": "mocha"
         },
         {
           "url": "http://jasmine.github.io/",
-          "favicon": "http://jasmine.github.io/images/jasmine_vertical.svg",
+          "favicon": "/images/jasmine.svg",
           "name": "jasmine"
         },
         {
           "url": "http://karma-runner.github.io/",
-          "favicon": "http://karma-runner.github.io/assets/img/favicon/favicon.ico",
+          "favicon": "/images/karma.png",
           "name": "karma"
         },
         {
@@ -661,7 +626,7 @@
         },
         {
           "url": "https://github.com/sstephenson/bats",
-          "favicon": "https://github.com/favicon.ico",
+          "favicon": "images/github.png",
           "name": "bats",
           "title": "Bash Automated Testing System"
         }
@@ -672,21 +637,22 @@
       "items": [
         {
           "url": "http://jenkins-ci.org/",
-          "favicon": "http://jenkins-ci.org/sites/default/files/jenkins_logo.png",
+          "favicon": "/images/jenkins.png",
           "name": "Jenkins"
         },
         {
           "url": "https://travis-ci.org/",
-          "favicon": "images/travis-ci.png",
+          "favicon": "images/travis.gif",
           "name": "travis-ci"
         },
         {
           "url": "https://saucelabs.com",
+          "favicon": "images/saucelabs.jpg",
           "name": "saucelabs"
         },
         {
           "url": "https://www.browserstack.com/",
-          "favicon": "images/browserstack.svg",
+          "favicon": "images/browserstack.png",
           "name": "browserstack"
         }
       ]
@@ -707,6 +673,7 @@
         {
           "url": "https://letsencrypt.org/",
           "name": "letsencrypt",
+          "favicon": "/images/letsencrypt.png",
           "title": "免费的SSL证书发放"
         }
       ]
@@ -716,6 +683,7 @@
       "items": [
         {
           "url": "https://www.gnu.org/",
+          "favicon": "/images/gnu.svg",
           "name": "GNU",
           "title": "自由软件GNU项目"
         }
@@ -726,13 +694,13 @@
       "items": [
         {
           "url": "http://surge.sh/",
-          "favicon": "http://surge.sh/images/logos/svg/surge-logo.svg",
+          "favicon": "images/surge.svg",
           "name": "surge.sh",
           "title": "surge.sh静态网站服务"
         },
         {
           "url": "https://hexo.io/",
-          "favicon": "https://hexo.io/icon/apple-touch-icon-152x152.png",
+          "favicon": "images/hexo.svg",
           "name": "hexo"
         }
       ]

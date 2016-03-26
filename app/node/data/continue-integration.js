@@ -2,18 +2,19 @@ module.exports = {
   name: '持续集成(Continuous Integration)',
   items: [{
     url: 'http://jenkins-ci.org/',
-    favicon: 'http://jenkins-ci.org/sites/default/files/jenkins_logo.png',
+    favicon: '/images/jenkins.png',
     name: 'Jenkins'
   }, {
     url: 'https://travis-ci.org/',
-    favicon: 'images/travis-ci.png',
+    favicon: 'images/travis.gif',
     name: 'travis-ci'
   }, {
     url: 'https://saucelabs.com',
+    favicon: 'images/saucelabs.jpg',
     name: 'saucelabs'
   }, {
     url: 'https://www.browserstack.com/',
-    favicon: 'images/browserstack.svg',
+    favicon: 'images/browserstack.png',
     name: 'browserstack'
   }]
 };

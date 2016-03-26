@@ -31,11 +31,11 @@ module.exports = {
       title: '匿名安全访问'
     }, {
       url: 'https://github.com/getlantern/lantern',
-      // favicon: 'images/lantern.svg',
       favicon: 'images/lantern.png',
       name: 'Lantern'
     }, {
       url: 'https://www.softether.org/',
+      favicon: 'images/softether.ico',
       name: 'SoftEther'
     }, {
       url: 'https://shadowsocks.org',

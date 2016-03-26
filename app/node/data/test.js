@@ -2,14 +2,15 @@ module.exports = {
   name: '单元测试',
   items: [{
     url: 'http://mochajs.org/',
+    favicon: '/images/mocha.svg',
     name: 'mocha'
   }, {
     url: 'http://jasmine.github.io/',
-    favicon: 'http://jasmine.github.io/images/jasmine_vertical.svg',
+    favicon: '/images/jasmine.svg',
     name: 'jasmine'
   }, {
     url: 'http://karma-runner.github.io/',
-    favicon: 'http://karma-runner.github.io/assets/img/favicon/favicon.ico',
+    favicon: '/images/karma.png',
     name: 'karma'
   }, {
     url: 'http://qunitjs.com/',
@@ -17,7 +18,7 @@ module.exports = {
     name: 'QUnit'
   }, {
     url: 'https://github.com/sstephenson/bats',
-    favicon: 'https://github.com/favicon.ico',
+    favicon: 'images/github.png',
     name: 'bats',
     title: 'Bash Automated Testing System'
   }]

@@ -95,7 +95,6 @@ module.exports = {
             // }, {
               url: 'http://knockoutjs.com/',
               favicon: '/images/knockout.jpg',
-              // favicon: 'http://knockoutjs.com/img/favicon.ico',
               name: 'KnockoutJS'
             }
           ]
