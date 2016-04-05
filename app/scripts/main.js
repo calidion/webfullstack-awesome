@@ -71,10 +71,10 @@ window.onload = function() {
         this.src = 'https://assets-cdn.github.com/favicon.ico';
       });
       $('.title > h3').on('mouseover', function() {
-        this.style.display = 'block';
+        // this.style.display = 'block';
       });
       $('.title > h3').on('mouseout', function() {
-        this.style.display = 'none';
+        // this.style.display = 'none';
       });
     }
   });

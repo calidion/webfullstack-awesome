@@ -86,13 +86,13 @@ body {
     padding: 0;
     text-align: center;
     h3:hover {
-      border-left: 20px solid #838;
+      border-bottom: 20px solid #838;
       display: block;
     }
     h3 {
-      display: none;
+      // display: none;
       border-left: 0 solid #838;
-      transition: border-left 1s;
+      transition: border-bottom 1s;
       transition-timing-function: ease-out;
       padding: 0 10px 3px;
       margin: 0 5px 5px;
@@ -101,7 +101,6 @@ body {
       margin-bottom: 5px;
       text-shadow: 1px 1px 1px #ccc;
       font-size: 12rem;
-      margin-left: 5px;
       cursor: auto;
       span {
         color: #009688;
