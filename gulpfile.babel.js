@@ -70,6 +70,8 @@ gulp.task('statics', () => {
 
 gulp.task('gen', () => {
   var spawn = require('child_process').spawn;
+  console.log('gen');
+  console.log(spawn);
   spawn('node', ['app/node/run']);
 });
 

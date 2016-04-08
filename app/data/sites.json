@@ -135,6 +135,11 @@
               "url": "http://www.sublimetext.com/",
               "favicon": "images/sublime.png",
               "name": "Sublime Text"
+            },
+            {
+              "url": "https://notepad-plus-plus.org/",
+              "favicon": "images/Notepadplusplus.png",
+              "name": "Notepad++"
             }
           ]
         },
@@ -532,19 +537,54 @@
           "name": "Azure"
         },
         {
+          "url": "https://cloud.google.com/",
+          "favicon": "/images/google-cloud.svg",
+          "name": "Google Cloud"
+        },
+        {
           "url": "http://www.aliyun.com/",
           "favicon": "/images/aliyun.jpg",
-          "name": "aliyun"
+          "name": "Aliyun"
         },
         {
           "url": "https://www.openshift.com/",
           "favicon": "/images/openshift.svg",
-          "name": "openshift"
+          "name": "Open Shift"
+        },
+        {
+          "url": "https://www.digitalocean.com/",
+          "favicon": "/images/DigitalOcean.svg",
+          "name": "Digital Ocean"
         },
         {
           "url": "https://www.docker.com/",
           "favicon": "/images/docker.png",
           "name": "Docker"
+        }
+      ]
+    },
+    {
+      "name": "Unix/Linux",
+      "items": [
+        {
+          "url": "https://www.debian.org/",
+          "favicon": "images/debian.svg",
+          "name": "Debian"
+        },
+        {
+          "url": "https://www.centos.org/",
+          "favicon": "images/centos.svg",
+          "name": "Centos"
+        },
+        {
+          "url": "http://www.ubuntu.com/",
+          "favicon": "images/ubuntu.svg",
+          "name": "Ubuntu"
+        },
+        {
+          "url": "https://www.archlinux.org/",
+          "favicon": "images/arch.svg",
+          "name": "Arch"
         }
       ]
     },

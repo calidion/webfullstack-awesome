@@ -10,6 +10,7 @@ module.exports = {
     require('./backend'),
     require('./sms'),
     require('./cloudcomputing'),
+    require('./unix-linux'),
     require('./networking'),
     require('./database'),
     require('./test'),

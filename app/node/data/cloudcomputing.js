@@ -9,14 +9,23 @@ module.exports = {
     favicon: '/images/azure.ico',
     name: 'Azure'
   }, {
+    url: 'https://cloud.google.com/',
+    favicon: '/images/google-cloud.svg',
+    name: 'Google Cloud'
+  },
+  {
     url: 'http://www.aliyun.com/',
     favicon: '/images/aliyun.jpg',
-    name: 'aliyun'
+    name: 'Aliyun'
   }, {
     url: 'https://www.openshift.com/',
     favicon: '/images/openshift.svg',
-    name: 'openshift'
-  }, {
+    name: 'Open Shift'
+  },  {
+    url: 'https://www.digitalocean.com/',
+    favicon: '/images/DigitalOcean.svg',
+    name: 'Digital Ocean'
+  },{
     url: 'https://www.docker.com/',
     favicon: '/images/docker.png',
     name: 'Docker'

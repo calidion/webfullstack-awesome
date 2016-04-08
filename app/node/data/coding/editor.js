@@ -13,5 +13,9 @@ module.exports = {
     url: 'http://www.sublimetext.com/',
     favicon: 'images/sublime.png',
     name: 'Sublime Text'
+  },{
+    url: 'https://notepad-plus-plus.org/',
+    favicon: 'images/Notepadplusplus.png',
+    name: 'Notepad++'
   } ]
 };
