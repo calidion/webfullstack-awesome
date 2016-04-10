@@ -63,6 +63,82 @@
       ]
     },
     {
+      "name": "编辑器",
+      "order": 1,
+      "items": [
+        {
+          "url": "http://vim.org",
+          "favicon": "images/Vimlogo.svg",
+          "name": "Vim"
+        },
+        {
+          "url": "http://www.gnu.org/software/emacs/",
+          "favicon": "images/emacs.svg",
+          "name": "Emacs"
+        },
+        {
+          "url": "http://www.sublimetext.com/",
+          "favicon": "images/sublime.png",
+          "name": "Sublime Text"
+        },
+        {
+          "url": "https://notepad-plus-plus.org/",
+          "favicon": "images/Notepadplusplus.png",
+          "name": "Notepad++"
+        }
+      ]
+    },
+    {
+      "name": "常用IDE",
+      "order": 3,
+      "items": [
+        {
+          "url": "https://www.jetbrains.com/webstorm/",
+          "favicon": "/images/webstorm.png",
+          "name": "Web Storm"
+        },
+        {
+          "url": "https://atom.io/",
+          "name": "Atom"
+        },
+        {
+          "url": "https://code.visualstudio.com/",
+          "favicon": "images/vscode.ico",
+          "name": "VS Code"
+        },
+        {
+          "url": "https://netbeans.org/",
+          "name": "Netbeans",
+          "favicon": "/images/netbeans.png"
+        },
+        {
+          "url": "https://www.jetbrains.com/idea/",
+          "favicon": "/images/idea.png",
+          "name": "IntelliJ IDEA"
+        },
+        {
+          "url": "http://brackets.io/",
+          "favicon": "/images/brackets.svg",
+          "name": "Adobe Brackets"
+        },
+        {
+          "url": "https://eclipse.org/",
+          "favicon": "/images/eclipse.png",
+          "name": "Eclipse"
+        },
+        {
+          "url": "http://developer.android.com/sdk/index.html",
+          "favicon": "/images/android-studio.svg",
+          "name": "Android Studio"
+        },
+        {
+          "url": "https://developer.apple.com/xcode/ide/",
+          "favicon": "/images/xcode.png",
+          "name": "XCode"
+        }
+      ]
+    },
+    {
       "name": "代码保存与维护",
       "order": 1,
       "items": [
@@ -114,74 +190,22 @@
       ]
     },
     {
-      "name": "编码工具",
-      "order": 3,
+      "name": "开发语言",
       "items": [
         {
-          "name": "编辑器",
-          "order": 1,
-          "items": [
-            {
-              "url": "http://vim.org",
-              "favicon": "images/Vimlogo.svg",
-              "name": "Vim"
-            },
-            {
-              "url": "http://www.gnu.org/software/emacs/",
-              "favicon": "images/emacs.svg",
-              "name": "Emacs"
-            },
-            {
-              "url": "http://www.sublimetext.com/",
-              "favicon": "images/sublime.png",
-              "name": "Sublime Text"
-            },
-            {
-              "url": "https://notepad-plus-plus.org/",
-              "favicon": "images/Notepadplusplus.png",
-              "name": "Notepad++"
-            }
-          ]
+          "url": "http://nodejs.org",
+          "favicon": "images/nodejs.png",
+          "name": "Node.js"
         },
         {
-          "name": "常用IDE",
-          "order": 3,
-          "items": [
-            {
-              "url": "https://www.jetbrains.com/webstorm/",
-              "favicon": "/images/webstorm.png",
-              "name": "Web Storm"
-            },
-            {
-              "url": "https://atom.io/",
-              "name": "Atom"
-            },
-            {
-              "url": "https://code.visualstudio.com/",
-              "favicon": "images/vscode.ico",
-              "name": "VS Code"
-            },
-            {
-              "url": "https://netbeans.org/",
-              "name": "Netbeans",
-              "favicon": "/images/netbeans.png"
-            },
-            {
-              "url": "https://www.jetbrains.com/idea/",
-              "favicon": "/images/idea.png",
-              "name": "IntelliJ IDEA"
-            },
-            {
-              "url": "http://brackets.io/",
-              "favicon": "/images/brackets.svg",
-              "name": "Adobe Brackets"
-            },
-            {
-              "url": "https://eclipse.org/",
-              "favicon": "/images/eclipse.png",
-              "name": "Eclipse"
-            }
-          ]
+          "url": "https://www.python.org/",
+          "favicon": "images/python.svg",
+          "name": "Python"
+        },
+        {
+          "url": "http://php.net/",
+          "favicon": "images/php.svg",
+          "name": "PHP"
         }
       ]
     },
@@ -488,11 +512,6 @@
               "name": "nodejs/ECMAScript",
               "items": [
                 {
-                  "url": "http://nodejs.org",
-                  "favicon": "images/nodejs.png",
-                  "name": "Node.js"
-                },
-                {
                   "url": "https://babeljs.io/",
                   "favicon": "images/babel.png",
                   "name": "babeljs"
@@ -514,6 +533,26 @@
       ]
     },
     {
+      "name": "混合移动/APP技术",
+      "items": [
+        {
+          "url": "https://cordova.apache.org/",
+          "favicon": "/images/cordova.png",
+          "name": "Cordova"
+        },
+        {
+          "url": "https://facebook.github.io/react-native/",
+          "favicon": "/images/reactjs.svg",
+          "name": "React Native"
+        },
+        {
+          "url": "https://www.nativescript.org/",
+          "favicon": "/images/nativescript.svg",
+          "name": "NativeScript"
+        }
+      ]
+    },
+    {
       "name": "短信平台",
       "items": [
         {
@@ -524,7 +563,7 @@
       ]
     },
     {
-      "name": "云计算",
+      "name": "云计算/云主机",
       "items": [
         {
           "url": "http://aws.amazon.com/",
@@ -555,6 +594,21 @@
           "url": "https://www.digitalocean.com/",
           "favicon": "/images/DigitalOcean.svg",
           "name": "Digital Ocean"
+        },
+        {
+          "url": "https://www.linode.com/",
+          "favicon": "/images/linode.svg",
+          "name": "Linode"
+        },
+        {
+          "url": "https://www.heroku.com/",
+          "favicon": "/images/heroku.png",
+          "name": "heroku"
+        },
+        {
+          "url": "https://www.openstack.org/",
+          "favicon": "/images/openstack.png",
+          "name": "openstack"
         },
         {
           "url": "https://www.docker.com/",
@@ -638,6 +692,22 @@
           "url": "https://www.sqlite.org/",
           "favicon": "/images/sqlite.svg",
           "name": "sqlite"
+        }
+      ]
+    },
+    {
+      "name": "Web服务器",
+      "items": [
+        {
+          "url": "https://httpd.apache.org/",
+          "favicon": "images/apache.svg",
+          "name": "Apache",
+          "title": "使用最广泛的Web服务器"
+        },
+        {
+          "url": "https://nginx.org",
+          "favicon": "images/nginx.svg",
+          "name": "NGINX"
         }
       ]
     },

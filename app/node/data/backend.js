@@ -50,10 +50,6 @@ module.exports = {
         }, {
           name: 'nodejs/ECMAScript',
           items: [{
-            url: 'http://nodejs.org',
-            favicon: 'images/nodejs.png',
-            name: 'Node.js'
-          }, {
             url: 'https://babeljs.io/',
             favicon: 'images/babel.png',
             name: 'babeljs'

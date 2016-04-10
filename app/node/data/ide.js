@@ -28,5 +28,13 @@ module.exports = {
     url: 'https://eclipse.org/',
     favicon: '/images/eclipse.png',
     name: 'Eclipse'
+  }, {
+    url: 'http://developer.android.com/sdk/index.html',
+    favicon: '/images/android-studio.svg',
+    name: 'Android Studio'
+  }, {
+    url: 'https://developer.apple.com/xcode/ide/',
+    favicon: '/images/xcode.png',
+    name: 'XCode'
   }]
 };
