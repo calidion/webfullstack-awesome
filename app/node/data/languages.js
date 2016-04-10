@@ -12,5 +12,13 @@ module.exports = {
     url: 'http://php.net/',
     favicon: 'images/php.svg',
     name: 'PHP'
+  }, {
+    url: 'https://www.ruby-lang.org/',
+    favicon: 'images/ruby.svg',
+    name: 'Ruby'
+  }, {
+    url : 'https://developer.apple.com/swift/',
+    favicon: 'images/swift.svg',
+    name: 'swift'
   }]
 };
