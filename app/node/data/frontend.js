@@ -25,8 +25,17 @@ module.exports = {
         name: 'Edge'
       }]
     }, {
-      name: 'HTML技术',
-      items: [{}]
+      name: 'HTML、模板化等技术',
+      items: [{
+        url: 'http://emmet.io/',
+        favicon: 'images/emmet.png',
+        name: 'emmet'
+      },
+      {
+        url: 'http://haml.info/',
+        favicon: 'images/haml.svg',
+        name: 'haml'
+      }]
     }, {
       name: 'CSS技术',
       items: [
