@@ -9,5 +9,9 @@ module.exports = {
     url: 'http://blog.qqbrowser.cc/',
     favicon: 'images/qqbrowser.png',
     name: 'weixin debug'
+  }, {
+    url: 'https://www.charlesproxy.com/',
+    favicon: 'images/charlesproxyicon.svg',
+    name: 'Charles Proxy'
   }]
 };
