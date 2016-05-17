@@ -253,9 +253,18 @@
           ]
         },
         {
-          "name": "HTML技术",
+          "name": "HTML、模板化等技术",
           "items": [
-            {}
+            {
+              "url": "http://emmet.io/",
+              "favicon": "images/emmet.png",
+              "name": "emmet"
+            },
+            {
+              "url": "http://haml.info/",
+              "favicon": "images/haml.svg",
+              "name": "haml"
+            }
           ]
         },
         {
@@ -621,6 +630,11 @@
           "name": "heroku"
         },
         {
+          "url": "http://hadoop.apache.org/",
+          "favicon": "/images/hadoop.svg",
+          "name": "hadoop"
+        },
+        {
           "url": "https://www.openstack.org/",
           "favicon": "/images/openstack.png",
           "name": "openstack"
@@ -670,6 +684,11 @@
           "url": "http://blog.qqbrowser.cc/",
           "favicon": "images/qqbrowser.png",
           "name": "weixin debug"
+        },
+        {
+          "url": "https://www.charlesproxy.com/",
+          "favicon": "images/charlesproxyicon.svg",
+          "name": "Charles Proxy"
         }
       ]
     },

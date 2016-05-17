@@ -33,7 +33,15 @@ module.exports = {
     url: 'https://www.heroku.com/',
     favicon: '/images/heroku.png',
     name: 'heroku'
-  },{
+  },
+   {
+     url: 'http://hadoop.apache.org/',
+     favicon: '/images/hadoop.svg',
+     name: 'hadoop'
+   },
+
+
+  {
     url: 'https://www.openstack.org/',
     favicon: '/images/openstack.png',
     name: 'openstack'
