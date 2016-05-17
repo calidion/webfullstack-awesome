@@ -4,6 +4,10 @@ module.exports = {
     url: 'https://www.twilio.com/',
     favicon: '/images/twilio.ico',
     name: 'twilio'
+  }, {
+    url: 'http://7glink.com/',
+    favicon: '/images/7glink.ico',
+    name: '7glink'
       // }, {
       //   url: 'http://www.yuntongxun.com/',
       //   name: '云通讯'

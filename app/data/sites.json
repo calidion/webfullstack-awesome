@@ -569,6 +569,11 @@
           "url": "https://www.twilio.com/",
           "favicon": "/images/twilio.ico",
           "name": "twilio"
+        },
+        {
+          "url": "http://7glink.com/",
+          "favicon": "/images/7glink.ico",
+          "name": "7glink"
         }
       ]
     },
@@ -795,6 +800,12 @@
           "name": "letsencrypt",
           "favicon": "/images/letsencrypt.png",
           "title": "免费的SSL证书发放"
+        },
+        {
+          "url": "https://nodesecurity.io/",
+          "name": "Node Security Project",
+          "favicon": "/images/nodesecurity.png",
+          "title": "Node Secruity Project!"
         }
       ]
     },
