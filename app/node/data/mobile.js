@@ -12,5 +12,9 @@ module.exports = {
     url: 'https://www.nativescript.org/',
     favicon: '/images/nativescript.svg',
     name: 'NativeScript'
+  }, {
+    url: 'https://crosswalk-project.org/',
+    favicon: '/images/crosswalk.ico',
+    name: 'Crosswalk Project'
   }]
 };

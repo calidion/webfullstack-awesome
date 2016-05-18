@@ -1,8 +1,6 @@
-$icon-font-path: '../fonts/';
-// bower:scss
+$icon-font-path: '../fonts/'; // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
-@import "bower_components/font-awesome/scss/font-awesome.scss";
-// endbower
+@import "bower_components/font-awesome/scss/font-awesome.scss"; // endbower
 html {
   font-size: 1px;
 }
@@ -19,9 +17,9 @@ body {
   // background-color: #888;
 }
 /* Everything but the jumbotron gets side spacing for mobile first views */
+.footer,
 .header,
-.marketing,
-.footer {
+.marketing {
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -69,8 +67,8 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    iframe,
-    div {
+    div,
+    iframe {
       position: absolute;
       top: 0;
       left: 0;
@@ -203,9 +201,9 @@ body {
     //max-width: 730px;
   }
   /* Remove the padding we set earlier */
+  .footer,
   .header,
-  .marketing,
-  .footer {
+  .marketing {
     padding-left: 0;
     padding-right: 0;
   }
@@ -216,6 +214,29 @@ body {
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
+  }
+}
+@media screen and (max-width: 640px) {
+  .right-body {
+    display: none;
+  }
+  .links ul.root > li {
+    display: inline-block;
+  }
+  .title > h3 {
+    display: none;
+  }
+  .links ul li a.item {
+    width: auto;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 1px #9E9E9E;
+  }
+  .links ul li a.item img {
+    width: 50px;
+    height: 50px;
+  }
+  .links ul li a.item span {
+    display: none;
   }
 }
 @media screen and (max-width: 768px) {
