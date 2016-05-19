@@ -89,6 +89,19 @@ module.exports = {
             favicon: 'images/polymer.png',
             name: 'Polymer',
           }]
+        }, {
+          name: 'Web Font',
+          items: [
+            {
+              url: 'http://fontawesome.io/',
+              name: 'Font Awesome',
+              favicon: 'images/fontawesome.ico'
+            }, {
+              url: 'http://iconfont.cn/',
+              name: 'Icon Font',
+              favicon: 'images/iconfont.ico'    
+            }
+          ]
         }
       ]
     }, require('./js'),
