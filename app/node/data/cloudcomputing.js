@@ -39,8 +39,6 @@ module.exports = {
      favicon: '/images/hadoop.svg',
      name: 'hadoop'
    },
-
-
   {
     url: 'https://www.openstack.org/',
     favicon: '/images/openstack.png',

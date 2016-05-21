@@ -588,6 +588,11 @@
           "url": "https://crosswalk-project.org/",
           "favicon": "/images/crosswalk.ico",
           "name": "Crosswalk Project"
+        },
+        {
+          "url": "https://www.firebase.com/",
+          "favicon": "/images/firebase.svg",
+          "name": "Firebase"
         }
       ]
     },
@@ -872,6 +877,21 @@
           "url": "https://hexo.io/",
           "favicon": "images/hexo.svg",
           "name": "hexo"
+        }
+      ]
+    },
+    {
+      "name": "移动支付集成",
+      "items": [
+        {
+          "url": "https://www.pingxx.com/",
+          "favicon": "/images/pingxx.ico",
+          "name": "pingxx"
+        },
+        {
+          "url": "https://beecloud.cn/",
+          "favicon": "/images/beecloud.ico",
+          "name": "beecloud"
         }
       ]
     }

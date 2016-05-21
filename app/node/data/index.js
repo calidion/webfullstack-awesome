@@ -22,6 +22,7 @@ module.exports = {
     require('./doc-api'),
     require('./secruity'),
     require('./culture'),
-    require('./static-web')
+    require('./static-web'),
+    require('./pay')
   ]
 };

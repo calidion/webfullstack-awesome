@@ -16,5 +16,9 @@ module.exports = {
     url: 'https://crosswalk-project.org/',
     favicon: '/images/crosswalk.ico',
     name: 'Crosswalk Project'
+  }, {
+    url: 'https://www.firebase.com/',
+    favicon: '/images/firebase.svg',
+    name: 'Firebase'
   }]
 };
