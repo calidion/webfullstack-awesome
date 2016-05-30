@@ -99,7 +99,15 @@
         },
         {
           "url": "https://atom.io/",
-          "name": "Atom"
+          "favicon": "/images/atom.ico",
+          "name": "Atom",
+          "children": [
+            {
+              "url": "https://nuclide.io/",
+              "favicon": "/images/nuclide.png",
+              "name": "Nuclide"
+            }
+          ]
         },
         {
           "url": "https://code.visualstudio.com/",
@@ -693,6 +701,16 @@
           "url": "https://www.archlinux.org/",
           "favicon": "images/arch.svg",
           "name": "Arch"
+        },
+        {
+          "url": "https://www.gentoo.org/",
+          "favicon": "images/gentoo.svg",
+          "name": "Gentoo"
+        },
+        {
+          "url": "https://www.freebsd.org/",
+          "favicon": "images/freebsd.svg",
+          "name": "FreeBSD"
         }
       ]
     },
@@ -850,6 +868,11 @@
           "name": "Node Security Project",
           "favicon": "/images/nodesecurity.png",
           "title": "Node Secruity Project!"
+        },
+        {
+          "url": "https://www.cvedetails.com/",
+          "name": "CVE Details",
+          "favicon": "/images/cve.png"
         }
       ]
     },
@@ -877,6 +900,11 @@
           "url": "https://hexo.io/",
           "favicon": "images/hexo.svg",
           "name": "hexo"
+        },
+        {
+          "url": "https://jekyllrb.com/",
+          "favicon": "images/jekyllrb.svg",
+          "name": "Jekyllrb"
         }
       ]
     },

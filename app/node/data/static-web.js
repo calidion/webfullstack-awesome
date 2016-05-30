@@ -9,5 +9,9 @@ module.exports = {
     url: 'https://hexo.io/',
     favicon: 'images/hexo.svg',
     name: 'hexo'
+  }, {
+    url: 'https://jekyllrb.com/',
+    favicon: 'images/jekyllrb.svg',
+    name: 'Jekyllrb'
   }]
 };

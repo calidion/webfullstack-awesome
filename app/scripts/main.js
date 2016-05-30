@@ -53,30 +53,32 @@ window.onload = function() {
     }
   }
 
+  function updateSites(json) {
+    console.log(json);
+
+    var data = $('<ul class="root">').append(getItem(json));
+
+    $('.links').append(data);
+
+    $('img').each(function() {
+      this.setAttribute('src', this.getAttribute('ng-src'));
+    });
+    $('img').on('error', function() {
+      this.src = 'https://assets-cdn.github.com/favicon.ico';
+    });
+    $('.title > h3').on('mouseover', function() {
+      // this.style.display = 'block';
+    });
+    $('.title > h3').on('mouseout', function() {
+      // this.style.display = 'none';
+    });
+  }
+
   $.ajax({
     url: 'data/sites.json',
     method: 'get',
     dataType: 'JSON',
-    success: function(json) {
-      console.log(json);
-
-      var data = $('<ul class="root">').append(getItem(json));
-
-      $('.links').append(data);
-
-      $('img').each(function() {
-        this.setAttribute('src', this.getAttribute('ng-src'));
-      });
-      $('img').on('error', function() {
-        this.src = 'https://assets-cdn.github.com/favicon.ico';
-      });
-      $('.title > h3').on('mouseover', function() {
-        // this.style.display = 'block';
-      });
-      $('.title > h3').on('mouseout', function() {
-        // this.style.display = 'none';
-      });
-    }
+    success: updateSites
   });
 
   var url;

@@ -10,10 +10,9 @@ module.exports = {
     name: 'Node Security Project',
     favicon: '/images/nodesecurity.png',
     title: 'Node Secruity Project!'
-  // },{
-  //   url:'https://www.cvedetails.com/',
-  //   name:'CVE Details',
-  //   favicon: '/images/'
-  //
+  },{
+    url:'https://www.cvedetails.com/',
+    name:'CVE Details',
+    favicon: '/images/cve.png'
   }]
 };

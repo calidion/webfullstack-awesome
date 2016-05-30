@@ -16,5 +16,13 @@ module.exports = {
     url: 'https://www.archlinux.org/',
     favicon: 'images/arch.svg',
     name: 'Arch'
+  }, {
+    url: 'https://www.gentoo.org/',
+    favicon: 'images/gentoo.svg',
+    name: 'Gentoo'
+  }, {
+    url: 'https://www.freebsd.org/',
+    favicon: 'images/freebsd.svg',
+    name: 'FreeBSD'
   }]
 };

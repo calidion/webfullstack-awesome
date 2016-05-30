@@ -7,7 +7,13 @@ module.exports = {
     name: 'Web Storm'
   }, {
     url: 'https://atom.io/',
-    name: 'Atom'
+    favicon: '/images/atom.ico',
+    name: 'Atom',
+    children: [{
+      url: 'https://nuclide.io/',
+      favicon: '/images/nuclide.png',
+      name: 'Nuclide'
+    }]
   }, {
     url: 'https://code.visualstudio.com/',
     favicon: 'images/vscode.ico',
