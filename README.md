@@ -2,7 +2,8 @@
 
  [![Build Status][travis-image]][travis-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 
-实例网站： http://www.3gcnbeta.com
+实例网站： http://webfullstack.me
+交流论坛： http://forum.webfullstack.me
 
 1. 以Web为核心向开发者提供便捷的网站导航服务
 2. 以开源为导向，优先推荐开源项目
