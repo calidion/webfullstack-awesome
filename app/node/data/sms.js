@@ -2,7 +2,7 @@ module.exports = {
   name: '短信平台',
   items: [{
     url: 'https://www.twilio.com/',
-    favicon: '/images/twilio.ico',
+    favicon: '/images/twilio.svg',
     name: 'twilio'
   }, {
     url: 'http://7glink.com/',

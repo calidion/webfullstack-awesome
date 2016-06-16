@@ -395,6 +395,11 @@
                   "name": "前端模板框架",
                   "items": [
                     {
+                      "url": "https://mozilla.github.io/nunjucks/",
+                      "favicon": "/images/mozilla.svg",
+                      "name": "nunjucks"
+                    },
+                    {
                       "url": "http://handlebarsjs.com/",
                       "favicon": "/images/handlebars.png",
                       "name": "handlebars"
@@ -609,7 +614,7 @@
       "items": [
         {
           "url": "https://www.twilio.com/",
-          "favicon": "/images/twilio.ico",
+          "favicon": "/images/twilio.svg",
           "name": "twilio"
         },
         {
@@ -722,6 +727,18 @@
           "favicon": "images/ngrok.png",
           "name": "ngrok",
           "title": "用于将本地服务器转化成网络服务器的工具"
+        },
+        {
+          "url": "http://localtunnel.me/",
+          "favicon": "images/localtunnel.ico",
+          "name": "localtunnel.me",
+          "title": "基于npm的功能类同ngrok的东西"
+        },
+        {
+          "url": "http://pagekite.net/",
+          "favicon": "images/pagekite.svg",
+          "name": "pagekite",
+          "title": "功能类同ngrok的开源产品"
         },
         {
           "url": "http://blog.qqbrowser.cc/",

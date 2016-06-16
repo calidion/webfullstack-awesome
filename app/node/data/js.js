@@ -28,6 +28,10 @@ module.exports = {
         {
           name: '前端模板框架',
           items: [{
+            url: 'https://mozilla.github.io/nunjucks/',
+            favicon: '/images/mozilla.svg',
+            name: 'nunjucks'
+          }, {
             url: 'http://handlebarsjs.com/',
             favicon: '/images/handlebars.png',
             name: 'handlebars'

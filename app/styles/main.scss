@@ -199,6 +199,12 @@ body {
     }
   }
 }
+
+#share {
+  position: absolute;
+  top: 0;
+  right: 200px;
+}
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
