@@ -20,5 +20,9 @@ module.exports = {
     url : 'https://developer.apple.com/swift/',
     favicon: 'images/swift.svg',
     name: 'swift'
+  }, {
+    url: 'https://golang.org/',
+    favicon: 'images/go.svg',
+    name: 'GO'
   }]
 };
