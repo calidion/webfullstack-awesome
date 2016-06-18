@@ -61,7 +61,7 @@ body {
   line-height: 2rem;
 }
 .search-engine {
-  padding: 10px 10px 30px;
+  padding: 10px 10px 5px;
 }
 .right-body {
   position: relative;
@@ -86,13 +86,16 @@ body {
     vertical-align: top;
     list-style: none;
     padding: 0;
-    text-align: center;
+    // text-align: center;
     h3:hover {
-      border-bottom: 20px solid #838;
-      display: block;
+      font-size: 14rem;
+      font-size: 14px;
+      // border-bottom: 20px solid #838;
+      color: #009688;
+      // display: block;
     }
     h3 {
-      // display: none;
+      // display: inline;
       border-left: 0 solid #838;
       transition: border-bottom 1s;
       transition-timing-function: ease-out;
@@ -205,6 +208,20 @@ body {
   top: 0;
   right: 200px;
 }
+
+.btn-color-charming {
+  color: #FFFFFF;
+  border-color: #00BCD4;
+  background-color: #2196F3;
+}
+
+.btn-color-charming:hover {
+  color: #FFFFFF;
+  border-color: #2196F3;
+  background-color: #1264A6;
+}
+
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
@@ -219,7 +236,7 @@ body {
   }
   /* Space out the masthead */
   .header {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
