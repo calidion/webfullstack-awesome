@@ -24,5 +24,10 @@ module.exports = {
     url: 'https://www.freebsd.org/',
     favicon: 'images/freebsd.svg',
     name: 'FreeBSD'
+  }, {
+    url: 'https://www.kali.org/',
+    favicon: 'images/kali.ico',
+    title: 'Our Most Advanced Penetration Testing Distribution, Ever.',
+    name: 'Kali'
   }]
 };
