@@ -9,6 +9,9 @@
 2. 以开源为导向，优先推荐开源项目
 3. 以热点为导向，不断调整不同时期的热点。
 
+
+![](./images/wfst.svg)
+
 [travis-image]: https://travis-ci.org/3gcnbeta/www.svg
 [travis-url]: https://travis-ci.org/3gcnbeta/www
 [coveralls-image]: https://coveralls.io/repos/3gcnbeta/www/badge.svg?branch=master&service=github
