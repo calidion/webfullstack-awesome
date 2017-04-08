@@ -5,7 +5,7 @@ module.exports = {
       name: '浏览器',
       items: [{
         url: 'https://www.google.com/chrome/',
-        favicon: '/images/chrome.ico',
+        favicon: '/images/chrome.svg',
         name: 'Chrome'
       }, {
         url: 'https://www.mozilla.org/en-US/firefox/products/',

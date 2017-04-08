@@ -12,6 +12,7 @@ module.exports = {
     require('./backend'),
     require('./mobile'),
     require('./sms'),
+    require('./middleware'),
     require('./cloudcomputing'),
     require('./unix-linux'),
     require('./networking'),

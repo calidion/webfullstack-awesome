@@ -240,7 +240,7 @@
           "items": [
             {
               "url": "https://www.google.com/chrome/",
-              "favicon": "/images/chrome.ico",
+              "favicon": "/images/chrome.svg",
               "name": "Chrome"
             },
             {
@@ -626,6 +626,17 @@
           "url": "http://7glink.com/",
           "favicon": "/images/7glink.ico",
           "name": "7glink"
+        }
+      ]
+    },
+    {
+      "name": "中间件技术",
+      "items": [
+        {
+          "url": "http://www.grpc.io/",
+          "favicon": "images/grpc.png",
+          "name": "grpc",
+          "title": "A high performance, open-source universal RPC framework"
         }
       ]
     },
