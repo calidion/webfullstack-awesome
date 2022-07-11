@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 import * as path from "path";
 
 // https://vitejs.dev/config/
@@ -9,4 +10,5 @@ export default defineConfig({
       '~fontawesome': path.resolve(__dirname, 'node_modules/fontawesome'),
     }
   },
+  plugins: [react()]
 })
