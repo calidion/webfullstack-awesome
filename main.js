@@ -1,5 +1,12 @@
 import './style.scss'
-import * as bootstrap from 'bootstrap/dist/js/bootstrap'
+import * as bootstrap from 'bootstrap'
+
+import {faPaw} from "@fortawesome/free-solid-svg-icons";
+import {faWindows, faGoogle} from "@fortawesome/free-brands-svg-icons";
+
+import fontawesome from '@fortawesome/fontawesome'
+
+fontawesome.library.add([faGoogle, faPaw, faWindows])
 
 document.querySelector('#app').innerHTML = `
   <h1>Hello Vite!</h1>

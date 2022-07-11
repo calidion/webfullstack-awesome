@@ -12,6 +12,10 @@
     "vite": "^2.9.9"
   },
   "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@popperjs/core": "^2.11.5",
     "bootstrap": "^5.1.3"
   }
