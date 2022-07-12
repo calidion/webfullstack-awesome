@@ -94,17 +94,17 @@
       "items": [
         {
           "url": "https://www.jetbrains.com/webstorm/",
-          "favicon": "/images/vendor/webstorm.png",
+          "favicon": "images/vendor/webstorm.png",
           "name": "Web Storm"
         },
         {
           "url": "https://atom.io/",
-          "favicon": "/images/vendor/atom.ico",
+          "favicon": "images/vendor/atom.ico",
           "name": "Atom",
           "children": [
             {
               "url": "https://nuclide.io/",
-              "favicon": "/images/vendor/nuclide.png",
+              "favicon": "images/vendor/nuclide.png",
               "name": "Nuclide"
             }
           ]
@@ -117,31 +117,31 @@
         {
           "url": "https://netbeans.org/",
           "name": "Netbeans",
-          "favicon": "/images/vendor/netbeans.png"
+          "favicon": "images/vendor/netbeans.png"
         },
         {
           "url": "https://www.jetbrains.com/idea/",
-          "favicon": "/images/vendor/idea.png",
+          "favicon": "images/vendor/idea.png",
           "name": "IntelliJ IDEA"
         },
         {
           "url": "http://brackets.io/",
-          "favicon": "/images/vendor/brackets.svg",
+          "favicon": "images/vendor/brackets.svg",
           "name": "Adobe Brackets"
         },
         {
           "url": "https://eclipse.org/",
-          "favicon": "/images/vendor/eclipse.png",
+          "favicon": "images/vendor/eclipse.png",
           "name": "Eclipse"
         },
         {
           "url": "http://developer.android.com/sdk/index.html",
-          "favicon": "/images/vendor/android-studio.svg",
+          "favicon": "images/vendor/android-studio.svg",
           "name": "Android Studio"
         },
         {
           "url": "https://developer.apple.com/xcode/ide/",
-          "favicon": "/images/vendor/xcode.png",
+          "favicon": "images/vendor/xcode.png",
           "name": "XCode"
         }
       ]
@@ -155,22 +155,22 @@
           "items": [
             {
               "url": "https://github.com",
-              "favicon": "/images/vendor/github.png",
+              "favicon": "images/vendor/github.png",
               "name": "GitHub"
             },
             {
               "url": "http://www.bitbucket.org",
-              "favicon": "/images/vendor/bitbucket.ico",
+              "favicon": "images/vendor/bitbucket.ico",
               "name": "BitBucket"
             },
             {
               "url": "http://gitlab.com",
-              "favicon": "/images/vendor/gitlab.png",
+              "favicon": "images/vendor/gitlab.png",
               "name": "GitLab"
             },
             {
               "url": "https://coding.net",
-              "favicon": "/images/vendor/coding.png",
+              "favicon": "images/vendor/coding.png",
               "name": "Coding"
             }
           ]
@@ -180,17 +180,17 @@
           "items": [
             {
               "url": "http://git-scm.com/",
-              "favicon": "/images/vendor/git.png",
+              "favicon": "images/vendor/git.png",
               "name": "git"
             },
             {
               "url": "https://www.mercurial-scm.org/",
-              "favicon": "/images/vendor/mercurial.jpg",
+              "favicon": "images/vendor/mercurial.jpg",
               "name": "Mercurial(hg)"
             },
             {
               "url": "http://subversion.apache.org/",
-              "favicon": "/images/vendor/svn.png",
+              "favicon": "images/vendor/svn.png",
               "name": "subversion(svn)"
             }
           ]
@@ -240,7 +240,7 @@
           "items": [
             {
               "url": "https://www.google.com/chrome/",
-              "favicon": "/images/vendor/chrome.svg",
+              "favicon": "images/vendor/chrome.svg",
               "name": "Chrome"
             },
             {
@@ -288,17 +288,17 @@
               "items": [
                 {
                   "url": "http://sass-lang.com/",
-                  "favicon": "/images/vendor/sass.svg",
+                  "favicon": "images/vendor/sass.svg",
                   "name": "Sass"
                 },
                 {
                   "url": "http://lesscss.org/",
-                  "favicon": "/images/vendor/less.png",
+                  "favicon": "images/vendor/less.png",
                   "name": "Less"
                 },
                 {
                   "url": "http://stylus-lang.com/",
-                  "favicon": "/images/vendor/stylus.svg",
+                  "favicon": "images/vendor/stylus.svg",
                   "name": "Stylus"
                 }
               ]
@@ -308,12 +308,12 @@
               "items": [
                 {
                   "url": "http://getbootstrap.com",
-                  "favicon": "/images/vendor/bootstrap.png",
+                  "favicon": "images/vendor/bootstrap.png",
                   "name": "Bootstrap"
                 },
                 {
                   "url": "http://metroui.org.ua/",
-                  "favicon": "/images/vendor/wn8.png",
+                  "favicon": "images/vendor/wn8.png",
                   "name": "Metro UI"
                 },
                 {
@@ -401,17 +401,17 @@
                   "items": [
                     {
                       "url": "https://mozilla.github.io/nunjucks/",
-                      "favicon": "/images/vendor/mozilla.svg",
+                      "favicon": "images/vendor/mozilla.svg",
                       "name": "nunjucks"
                     },
                     {
                       "url": "http://handlebarsjs.com/",
-                      "favicon": "/images/vendor/handlebars.png",
+                      "favicon": "images/vendor/handlebars.png",
                       "name": "handlebars"
                     },
                     {
                       "url": "http://facebook.github.io/react/",
-                      "favicon": "/images/vendor/reactjs.svg",
+                      "favicon": "images/vendor/reactjs.svg",
                       "name": "React JS"
                     }
                   ]
@@ -421,7 +421,7 @@
                   "items": [
                     {
                       "url": "http://jquery.com/",
-                      "favicon": "/images/vendor/jquery.png",
+                      "favicon": "images/vendor/jquery.png",
                       "name": "JQuery"
                     }
                   ]
@@ -432,11 +432,11 @@
                     {
                       "url": "http://prototypejs.org/",
                       "name": "PrototypeJS",
-                      "favicon": "/images/vendor/prototypejs.png"
+                      "favicon": "images/vendor/prototypejs.png"
                     },
                     {
                       "url": "http://underscorejs.org/",
-                      "favicon": "/images/vendor/underscore.png",
+                      "favicon": "images/vendor/underscore.png",
                       "name": "UnderScore JS"
                     }
                   ]
@@ -461,22 +461,22 @@
                     },
                     {
                       "url": "http://backbonejs.org/",
-                      "favicon": "/images/vendor/backbone.png",
+                      "favicon": "images/vendor/backbone.png",
                       "name": "Backbone"
                     },
                     {
                       "url": "http://vuejs.org/",
-                      "favicon": "/images/vendor/vue.png",
+                      "favicon": "images/vendor/vue.png",
                       "name": "Vue.js"
                     },
                     {
                       "url": "http://avalonjs.github.io/",
                       "name": "Avalon.JS",
-                      "favicon": "/images/vendor/avalon.png"
+                      "favicon": "images/vendor/avalon.png"
                     },
                     {
                       "url": "http://knockoutjs.com/",
-                      "favicon": "/images/vendor/knockout.jpg",
+                      "favicon": "images/vendor/knockout.jpg",
                       "name": "KnockoutJS"
                     }
                   ]
@@ -589,27 +589,27 @@
       "items": [
         {
           "url": "https://cordova.apache.org/",
-          "favicon": "/images/vendor/cordova.png",
+          "favicon": "images/vendor/cordova.png",
           "name": "Cordova"
         },
         {
           "url": "https://facebook.github.io/react-native/",
-          "favicon": "/images/vendor/reactjs.svg",
+          "favicon": "images/vendor/reactjs.svg",
           "name": "React Native"
         },
         {
           "url": "https://www.nativescript.org/",
-          "favicon": "/images/vendor/nativescript.svg",
+          "favicon": "images/vendor/nativescript.svg",
           "name": "NativeScript"
         },
         {
           "url": "https://crosswalk-project.org/",
-          "favicon": "/images/vendor/crosswalk.ico",
+          "favicon": "images/vendor/crosswalk.ico",
           "name": "Crosswalk Project"
         },
         {
           "url": "https://www.firebase.com/",
-          "favicon": "/images/vendor/firebase.svg",
+          "favicon": "images/vendor/firebase.svg",
           "name": "Firebase"
         }
       ]
@@ -619,12 +619,12 @@
       "items": [
         {
           "url": "https://www.twilio.com/",
-          "favicon": "/images/vendor/twilio.svg",
+          "favicon": "images/vendor/twilio.svg",
           "name": "twilio"
         },
         {
           "url": "http://7glink.com/",
-          "favicon": "/images/vendor/7glink.ico",
+          "favicon": "images/vendor/7glink.ico",
           "name": "7glink"
         }
       ]
@@ -645,57 +645,57 @@
       "items": [
         {
           "url": "http://aws.amazon.com/",
-          "favicon": "/images/vendor/aws.png",
+          "favicon": "images/vendor/aws.png",
           "name": "Amazon"
         },
         {
           "url": "http://azure.microsoft.com/",
-          "favicon": "/images/vendor/azure.ico",
+          "favicon": "images/vendor/azure.ico",
           "name": "Azure"
         },
         {
           "url": "https://cloud.google.com/",
-          "favicon": "/images/vendor/google-cloud.svg",
+          "favicon": "images/vendor/google-cloud.svg",
           "name": "Google Cloud"
         },
         {
           "url": "http://www.aliyun.com/",
-          "favicon": "/images/vendor/aliyun.jpg",
+          "favicon": "images/vendor/aliyun.jpg",
           "name": "Aliyun"
         },
         {
           "url": "https://www.openshift.com/",
-          "favicon": "/images/vendor/openshift.svg",
+          "favicon": "images/vendor/openshift.svg",
           "name": "Open Shift"
         },
         {
           "url": "https://www.digitalocean.com/",
-          "favicon": "/images/vendor/DigitalOcean.svg",
+          "favicon": "images/vendor/DigitalOcean.svg",
           "name": "Digital Ocean"
         },
         {
           "url": "https://www.linode.com/",
-          "favicon": "/images/vendor/linode.svg",
+          "favicon": "images/vendor/linode.svg",
           "name": "Linode"
         },
         {
           "url": "https://www.heroku.com/",
-          "favicon": "/images/vendor/heroku.png",
+          "favicon": "images/vendor/heroku.png",
           "name": "heroku"
         },
         {
           "url": "http://hadoop.apache.org/",
-          "favicon": "/images/vendor/hadoop.svg",
+          "favicon": "images/vendor/hadoop.svg",
           "name": "hadoop"
         },
         {
           "url": "https://www.openstack.org/",
-          "favicon": "/images/vendor/openstack.png",
+          "favicon": "images/vendor/openstack.png",
           "name": "openstack"
         },
         {
           "url": "https://www.docker.com/",
-          "favicon": "/images/vendor/docker.png",
+          "favicon": "images/vendor/docker.png",
           "name": "Docker"
         }
       ]
@@ -779,34 +779,34 @@
       "items": [
         {
           "url": "http://www.mysql.com/",
-          "favicon": "/images/vendor/mysql.svg",
+          "favicon": "images/vendor/mysql.svg",
           "name": "Mysql",
           "title": "用于将本地服务器转化成网络服务器的工具"
         },
         {
           "url": "http://www.postgresql.org/",
-          "favicon": "/images/vendor/postgresql.svg",
+          "favicon": "images/vendor/postgresql.svg",
           "name": "PostgreSQL"
         },
         {
           "url": "https://www.mongodb.org/",
-          "favicon": "/images/vendor/mongo.png",
+          "favicon": "images/vendor/mongo.png",
           "name": "Mongodb"
         },
         {
           "url": "https://mariadb.com/",
-          "favicon": "/images/vendor/mariadb.png",
+          "favicon": "images/vendor/mariadb.png",
           "name": "mariadb"
         },
         {
           "url": "https://google.github.io/lovefield/",
-          "favicon": "/images/vendor/lovefield.png",
+          "favicon": "images/vendor/lovefield.png",
           "name": "lovefield",
           "title": "浏览器端的关系数据库"
         },
         {
           "url": "https://www.sqlite.org/",
-          "favicon": "/images/vendor/sqlite.svg",
+          "favicon": "images/vendor/sqlite.svg",
           "name": "sqlite"
         }
       ]
@@ -832,22 +832,22 @@
       "items": [
         {
           "url": "http://mochajs.org/",
-          "favicon": "/images/vendor/mocha.svg",
+          "favicon": "images/vendor/mocha.svg",
           "name": "mocha"
         },
         {
           "url": "http://jasmine.github.io/",
-          "favicon": "/images/vendor/jasmine.svg",
+          "favicon": "images/vendor/jasmine.svg",
           "name": "jasmine"
         },
         {
           "url": "http://karma-runner.github.io/",
-          "favicon": "/images/vendor/karma.png",
+          "favicon": "images/vendor/karma.png",
           "name": "karma"
         },
         {
           "url": "http://qunitjs.com/",
-          "favicon": "/images/vendor/qunit.svg",
+          "favicon": "images/vendor/qunit.svg",
           "name": "QUnit"
         },
         {
@@ -863,7 +863,7 @@
       "items": [
         {
           "url": "http://jenkins-ci.org/",
-          "favicon": "/images/vendor/jenkins.png",
+          "favicon": "images/vendor/jenkins.png",
           "name": "Jenkins"
         },
         {
@@ -899,19 +899,19 @@
         {
           "url": "https://letsencrypt.org/",
           "name": "letsencrypt",
-          "favicon": "/images/vendor/letsencrypt.png",
+          "favicon": "images/vendor/letsencrypt.png",
           "title": "免费的SSL证书发放"
         },
         {
           "url": "https://nodesecurity.io/",
           "name": "Node Security Project",
-          "favicon": "/images/vendor/nodesecurity.png",
+          "favicon": "images/vendor/nodesecurity.png",
           "title": "Node Secruity Project!"
         },
         {
           "url": "https://www.cvedetails.com/",
           "name": "CVE Details",
-          "favicon": "/images/vendor/cve.png"
+          "favicon": "images/vendor/cve.png"
         }
       ]
     },
@@ -920,7 +920,7 @@
       "items": [
         {
           "url": "https://www.gnu.org/",
-          "favicon": "/images/vendor/gnu.svg",
+          "favicon": "images/vendor/gnu.svg",
           "name": "GNU",
           "title": "自由软件GNU项目"
         }
@@ -964,12 +964,12 @@
       "items": [
         {
           "url": "https://www.pingxx.com/",
-          "favicon": "/images/vendor/pingxx.ico",
+          "favicon": "images/vendor/pingxx.ico",
           "name": "pingxx"
         },
         {
           "url": "https://beecloud.cn/",
-          "favicon": "/images/vendor/beecloud.ico",
+          "favicon": "images/vendor/beecloud.ico",
           "name": "beecloud"
         }
       ]
