@@ -4,10 +4,9 @@ import "./scss/search-bar.scss";
 import { faPaw } from "@fortawesome/free-solid-svg-icons";
 import { faGoogle, faWindows } from "@fortawesome/free-brands-svg-icons";
 
-import fontawesome, { IconPack } from "@fortawesome/fontawesome";
+import { library } from "@fortawesome/fontawesome-svg-core";
 
-fontawesome.library.add([faWindows as IconPack, faGoogle as IconPack, faPaw as IconPack]);
-
+library.add(faWindows, faGoogle, faPaw);
 
 function SearchBar() {
   let engines = [
@@ -43,7 +42,6 @@ function SearchBar() {
       <div className="col-2">&nbsp;</div>
       <div className="col-2">
         <div className="dropdown">
-        
           <button
             className="btn btn-default dropdown-toggle title-clear"
             type="button"
@@ -51,9 +49,27 @@ function SearchBar() {
             data-bs-toggle="dropdown"
             aria-expanded="false"
           >
-            {engine.id ==='google' ? <span><i className='fab fa-google'></i></span>: ""}
-            {engine.id ==='bing' ? <span><i className='fab fa-windows'></i></span>: ""}
-            {engine.id ==='baidu' ? <span><i className='fa fa-paw'></i></span>: ""}
+            {engine.id === "google" ? (
+              <span>
+                <i className="fab fa-google"></i>
+              </span>
+            ) : (
+              ""
+            )}
+            {engine.id === "bing" ? (
+              <span>
+                <i className="fab fa-windows"></i>
+              </span>
+            ) : (
+              ""
+            )}
+            {engine.id === "baidu" ? (
+              <span>
+                <i className="fa fa-paw"></i>
+              </span>
+            ) : (
+              ""
+            )}
             &nbsp;{engine.name}
           </button>
           <ul className="dropdown-menu" aria-labelledby="searches">

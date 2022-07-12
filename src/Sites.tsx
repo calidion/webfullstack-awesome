@@ -15,7 +15,7 @@ function Sites(props: any) {
       )}
       {!props.item.url && <h3>{props.item.name}</h3>}
       {
-        props.item.items && props.item.items.map((item) => {
+        props.item.items && props.item.items.map((item: any) => {
           return <Sites item={item}/>
         })
       }
