@@ -19,10 +19,10 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
     <div className="container">
       <Info />
       <SearchBar />
+      <Awesome />
+      <Marketing />
+      <Footer />
     </div>
-    <Awesome/>
-    <Marketing />
-    <Footer />
     <App />
   </React.StrictMode>
 );

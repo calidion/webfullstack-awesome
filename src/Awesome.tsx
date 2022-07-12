@@ -45,7 +45,7 @@ function Awesome() {
 
   return (
     <div className="row">
-      <div className="col-md-12 links">
+      <div className="col-12 links">
         {!isFetched && (
           <div className="progress">
             <div
