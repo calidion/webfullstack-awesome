@@ -10,6 +10,7 @@ import SearchBar from "./SearchBar";
 import "bootstrap";
 import Footer from "./Footer";
 import Marketing from "./Marketing";
+import Awesome from "./Awesome";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
@@ -19,6 +20,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
       <Info />
       <SearchBar />
     </div>
+    <Awesome/>
     <Marketing />
     <Footer />
     <App />
