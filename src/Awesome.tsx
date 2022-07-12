@@ -51,9 +51,9 @@ function Awesome() {
             <div
               className="progress-bar progress-bar-success progress-bar-striped active"
               role="progressbar"
-              aria-valuenow="100"
-              aria-valuemin="0"
-              aria-valuemax="100"
+              aria-valuenow={100}
+              aria-valuemin={0}
+              aria-valuemax={100}
               style={{ width: `${percentage}%` }}
             ></div>
           </div>

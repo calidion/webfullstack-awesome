@@ -4,9 +4,9 @@ import "./scss/search-bar.scss";
 import { faPaw } from "@fortawesome/free-solid-svg-icons";
 import { faGoogle, faWindows } from "@fortawesome/free-brands-svg-icons";
 
-import fontawesome from "@fortawesome/fontawesome";
+import fontawesome, { IconPack } from "@fortawesome/fontawesome";
 
-fontawesome.library.add([faWindows, faGoogle, faPaw]);
+fontawesome.library.add([faWindows as IconPack, faGoogle as IconPack, faPaw as IconPack]);
 
 
 function SearchBar() {
