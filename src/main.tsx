@@ -7,16 +7,20 @@ import "./scss/index.scss";
 import Info from "./Info";
 import SearchBar from "./SearchBar";
 
-import 'bootstrap';
+import "bootstrap";
+import Footer from "./Footer";
+import Marketing from "./Marketing";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Fork />
-    <Share/>
+    <Share />
     <div className="container">
-    <Info />
-    <SearchBar/>
+      <Info />
+      <SearchBar />
     </div>
+    <Marketing />
+    <Footer />
     <App />
   </React.StrictMode>
 );
