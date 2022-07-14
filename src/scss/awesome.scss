@@ -1,6 +1,13 @@
 $item-width: 60px;
 $image-width: 50px;
 .links {
+
+  .progress {
+    margin-top: 2rem;
+  }
+  .alert {
+    margin-bottom: 2rem;
+  }
   ul {
     vertical-align: top;
     list-style: none;
