@@ -24,7 +24,9 @@
             {
               "url": "http://www.baidu.com",
               "favicon": "images/vendor/baidu.png",
-              "name": "Baidu"
+              "name": "Baidu",
+              "likes": 100,
+              "views": 200
             }
           ]
         },

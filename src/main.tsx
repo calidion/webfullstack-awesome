@@ -15,7 +15,7 @@ import Awesome from "./Awesome";
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <Fork />
-    <Share />
+    {/* <Share /> */}
     <div className="container">
       <Info />
       <SearchBar />
