@@ -5,12 +5,8 @@ import { faPaw } from "@fortawesome/free-solid-svg-icons";
 import { faGoogle, faWindows } from "@fortawesome/free-brands-svg-icons";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { icon } from "@fortawesome/fontawesome";
 
 library.add(faWindows, faGoogle, faPaw);
-const google = icon({ prefix: 'fab', iconName: 'google' });
-const bing = icon({ prefix: 'fab', iconName: 'microsoft' });
-const baidu = icon({ prefix: 'far', iconName: 'paw' });
 
 
 function SearchBar() {
